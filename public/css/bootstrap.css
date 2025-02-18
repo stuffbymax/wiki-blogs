@@ -612,8 +612,9 @@ a:focus {
   float: right;
 }
 
+/* Jerko tu je bilo 20pc odmak pa sam nulirao */
 .container {
-  margin-left: 20px;
+  margin-left: 0px;
   *zoom: 1;
 }
 
@@ -4222,11 +4223,12 @@ input[type="submit"].btn.btn-mini {
   overflow: visible;
 }
 
+/* Jerko - ovu lijevu marginu bi trebalo izbaciti i preseliti u media queries da se poravnava s onim ispod */
 .navbar .brand {
   display: block;
   float: left;
   padding: 0 10px;
-  margin-left: -10px;
+  margin-left: 16px;
   font-size: 18px;
   color: #000084;
   text-shadow: 0;

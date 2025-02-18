@@ -78,6 +78,10 @@
   .hidden-tablet {
     display: none !important;
   }
+/* Jerko ubacio poravnavanje naslova na 10% ali ne radi pa sam vratio na 16px*/
+  .navbar .brand {   
+    margin-left: 16px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -92,6 +96,10 @@
   }
   .hidden-phone {
     display: none !important;
+  }
+/* Jerko ubacio poravnavanje naslova */
+  .navbar .brand {
+    margin-left: 16px;
   }
 }
 
@@ -949,7 +957,8 @@
   }
 }
 
-@media (max-width: 979px) {
+/* Jerko: 979 je bilo u iducem redu pa sam smanji na 350 da mi se najgornji meni cijelo vrijeme prikazuje kao na desktopu */
+@media (max-width: 350px) {
   body {
     padding-top: 0;
   }

@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://wiki/'
 title = "wiki"
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -26,6 +26,7 @@ preserveTaxonomyNames = true
 
     # Urls for social networks
     github = "https://github.com/stuffbymax"
+    youtube = "https://www.youtube.com/@stuffbymax"
 
     # Enables or disables the loading animations. false activates them. Default is false.
     loadfastload = false

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cybersecurity on wiki</title>
+    <link>http://localhost:1313/tags/cybersecurity/</link>
+    <description>Recent content in Cybersecurity on wiki</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Facebook Blocks DistroWatch Links: A Review of the Incident</title>
+      <link>http://localhost:1313/post/facebook-blocks-distrowatch/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/facebook-blocks-distrowatch/</guid>
+      <description>&lt;h1 id=&#34;facebook-blocks-distrowatch-links-a-review-of-the-incident&#34;&gt;Facebook Blocks DistroWatch Links: A Review of the Incident&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In January 2025, Facebook blocked links to DistroWatch, a popular website dedicated to Linux distributions, resulting in warnings and account restrictions for users sharing these links. This incident sparked confusion and raised questions about the reliability and fairness of automated content moderation systems. This report reviews what happened, the reasons behind it, Facebook&amp;rsquo;s response, and the broader implications of overblocking.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
