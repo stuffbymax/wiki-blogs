@@ -74,4 +74,5 @@ the promt was runed only once per AI
 For optimal performance and design in Tic-Tac-Toe gameplay, **ChatGPT-4,** **Gemini 2.0 Flash-Experimental,** and **Cloud 3.5-Sonnet** are the best options. They offer smooth player vs. AI gameplay and decent design, though minor glitches in output may affect user experience. Copilot and Gemini 2.0 Flash fall short in certain areas, with Gemini 2.0 Flash not offering the expected player-vs-AI experience at all.  
 
 ---
-
+## test it here
+[tic-tac-toe](https://stuffbymax.me/tic-tac-toe-test/)
