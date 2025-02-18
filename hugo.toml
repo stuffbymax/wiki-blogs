@@ -1,3 +1,4 @@
+baseURL = '/wiki'
 title = "wiki"
 languageCode = "en"
 DefaultContentLanguage = "en"
