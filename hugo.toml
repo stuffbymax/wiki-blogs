@@ -1,4 +1,4 @@
-baseURL = 'https://wiki/'
+baseURL = 'https://stuffbymax.me/wiki/'
 title = "wiki"
 languageCode = "en"
 DefaultContentLanguage = "en"
