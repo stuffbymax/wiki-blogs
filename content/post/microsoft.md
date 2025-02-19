@@ -1,6 +1,7 @@
 +++
 date = '2025-02-19T14:34:16Z'
 draft = false
+author = "stuffbymax|Martin Petik"
 title = "How Many Times Could Microsoft Buy Sony?"
 description = "can Microsoft buy sony?"
 categories = ["Tech News"]

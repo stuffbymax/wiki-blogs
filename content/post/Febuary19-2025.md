@@ -1,4 +1,5 @@
 +++
+author = "stuffbymax|Martin Petik"
 title = "Latest Tech News 2025-02-19"
 date = 2025-02-19
 description = "A roundup of the latest developments in the tech industry."

@@ -1,12 +1,10 @@
 +++
 title = "About"
-description = "about"
+description = "About page"
 date = "2025-02-18"
 aliases = ["about"]
-author = "stuffbymax"
+author = "stuffbymax|Martin Petik"
 +++
-
-# About page
 
 ----
 

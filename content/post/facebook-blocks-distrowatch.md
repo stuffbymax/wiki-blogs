@@ -1,5 +1,5 @@
 +++
-author = "stuffbymax"
+author = "stuffbymax|Martin Petik"
 title = "Facebook Blocks DistroWatch Links: A Review of the Incident"
 date = "2025-02-18"
 description = "An analysis of the incident where Facebook blocked links to DistroWatch in January 2025 due to a cybersecurity filter mistake, and the implications for automated content moderation."

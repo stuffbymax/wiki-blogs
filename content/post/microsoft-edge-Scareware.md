@@ -1,5 +1,5 @@
 +++
-author = 'stuffbymax'
+author = "stuffbymax|Martin Petik"
 date = '2025-02-18'
 draft = 'false'
 title = "Microsoft Edge's New Scareware Blocker"

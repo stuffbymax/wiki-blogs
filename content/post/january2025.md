@@ -1,6 +1,7 @@
 +++
 date = '2025-02-18T18:10:52Z'
 draft = 'false'
+author = "stuffbymax|Martin Petik"
 title = "January2025 news"
 description = "a news in january"
 categories = ["Tech News"]

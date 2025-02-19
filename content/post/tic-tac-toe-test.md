@@ -1,5 +1,5 @@
 +++
-author = "stuffbymax"
+author = "stuffbymax|Martin Petik"
 title = "Testing Different AI Models"
 date = "2025-02-18"
 description = "Article showcasing different AI models and testing them by making a Tic-Tac-Toe HTML game."
