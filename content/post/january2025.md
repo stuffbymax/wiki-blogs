@@ -24,6 +24,8 @@ aliases = ["january-2025-news"]
   Following the release of DeepSeek-R1, Nvidia's stock experienced a significant decline, losing almost $600 billion in market value on January 27, 2025, marking the largest single-day loss for a U.S. company.  
   [Source](https://en.wikipedia.org/wiki/2025?utm_source=chatgpt.com)
 
+---
+
 ## Consumer Technology
 
 - **CES 2025 Highlights**:  
@@ -34,14 +36,20 @@ aliases = ["january-2025-news"]
   Samsung unveiled the Galaxy S25 series on January 22, 2025, during the Galaxy Unpacked event in San Jose. The series includes the S25, S25+, and S25 Ultra models, featuring advanced AI technology and the One UI 7 interface. The phones became available for purchase on February 7, 2025.  
   [Source](https://www.thesun.co.uk/shopping/32963255/samsung-galaxy-s25-pre-orders-where-to-buy/?utm_source=chatgpt.com)
 
+---
+
 ## Corporate Developments
 
 - **Major Layoffs in Tech Industry**:  
   In January 2025, several high-profile companies announced significant workforce reductions. Notable layoffs include 1,750 corporate staff at Southwest Airlines, up to 20% of Chevron's global workforce, and 10% of Blue Origin's staff. These actions reflect broader trends in the tech industry.  
   [Source](https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2025?utm_source=chatgpt.com)
 
+---
+
 ## Financial Trends
 
 - **Emerging Market Investments**:  
   In January 2025, investors heavily invested in emerging market debt, with inflows reaching $45 billion, influenced by geopolitical factors and advancements in AI technology. The MSCI emerging market index experienced a positive rally, boosted by strong performances from major Chinese tech stocks.  
   [Source](https://www.reuters.com/markets/investors-went-january-emerging-market-buying-spree-report-shows-2025-02-18/?utm_source=chatgpt.com)
+
+---

@@ -9,7 +9,12 @@ series = ["Tech"]
 aliases = ["facebook-blocks-distrowatch-links"]
 +++
 
-# Facebook Blocks DistroWatch Links: A Review of the Incident
+---
+
+
+## Facebook Blocks DistroWatch Links: A Review of the Incident
+
+---
 
 ## **Introduction**
 
@@ -48,13 +53,17 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 ---
 
 ## **Facebook's Response & Reversal**
+
 - DistroWatch’s editor, Jesse Smith, tried appealing the block, but his account was locked.  
+
 - Facebook later admitted the block was a mistake and lifted the ban.  
+
 - Facebook clarified that **Linux-related content** was not being censored.  
 
 ---
 
 ## **Lessons from the Incident**
+
 - **Automated moderation systems can misidentify legitimate sites**: Even trusted websites can be wrongly flagged due to indirect connections to compromised content.
 
 - **False positives happen**: Over-aggressive cybersecurity measures can lead to false positives, where legitimate content is unjustly penalized.
@@ -64,6 +73,7 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 ---
 
 ## **Final Thoughts**
+
 - This incident serves as a reminder of the difficulties associated with automated content moderation on large platforms like Facebook.  
 
 - While cybersecurity is essential, overblocking legitimate content can lead to unnecessary restrictions and public backlash.
@@ -72,6 +82,10 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 
 ---
 
-### Sources:
-1. [YouTube Video on the Incident](https://www.youtube.com/watch?v=xOdMTS6XVu4)
-2. [The Register Article on Facebook's Mistake](https://www.theregister.com/2025/01/28/facebook_blocks_distrowatch/)
+## Sources ##
+
+- 1. [YouTube Video on the Incident](https://www.youtube.com/watch?v=xOdMTS6XVu4)
+
+- 2. [The Register Article on Facebook's Mistake](https://www.theregister.com/2025/01/28/facebook_blocks_distrowatch/)
+
+---
