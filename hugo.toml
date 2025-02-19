@@ -7,7 +7,7 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "wiki and blog"
+    mainpagetitle = "wiki and blogs"
 
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "Welcome to the early 90s!" 
