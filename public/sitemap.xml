@@ -11,19 +11,28 @@
     <loc>http://localhost:1313/post/microsoft/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/microsoft/</loc>
+    <lastmod>2025-02-19T14:34:16+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-02-19T14:34:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tech-news/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-02-18T18:10:52+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game-development/</loc>
+    <lastmod>2025-02-18T18:10:52+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/january25/</loc>
     <lastmod>2025-02-18T18:10:52+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ai--machine-learning/</loc>
@@ -35,16 +44,10 @@
     <loc>http://localhost:1313/post/facebook-blocks-distrowatch/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/game-development/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/meta/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/microsoft-edge-scareware/</loc>
-    <lastmod>2025-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tech-reviews/</loc>

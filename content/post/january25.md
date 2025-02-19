@@ -4,6 +4,7 @@ draft = 'false'
 title = 'January25'
 categories = ["Tech News"]
 series = ["Tech"]
+tags = ["AI", "Game Development"]
 aliases = ["january-2025-news"]
 +++
 # Tech News - January 2025

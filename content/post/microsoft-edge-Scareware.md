@@ -5,6 +5,7 @@ draft = 'false'
 title = "Microsoft Edge's New Scareware Blocker"
 categories = ["Tech News", "Cybersecurity"]
 series = ["Tech"]
+tags = ["Microsoft"]
 aliases = ["microsoft Edge"]
 +++
 

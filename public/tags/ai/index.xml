@@ -6,8 +6,15 @@
     <description>Recent content in AI on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2025 18:10:52 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>January25</title>
+      <link>http://localhost:1313/post/january25/</link>
+      <pubDate>Tue, 18 Feb 2025 18:10:52 +0000</pubDate>
+      <guid>http://localhost:1313/post/january25/</guid>
+      <description>&lt;h1 id=&#34;tech-news---january-2025&#34;&gt;Tech News - January 2025&lt;/h1&gt;&#xA;&lt;h2 id=&#34;artificial-intelligence-and-cybersecurity&#34;&gt;Artificial Intelligence and Cybersecurity&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;DeepSeek&amp;rsquo;s AI Model Release&lt;/strong&gt;:&lt;br&gt;&#xA;On January 20, 2025, Chinese AI startup DeepSeek released the DeepSeek-R1 model, a large language model utilizing chain-of-thought reasoning. This model is open-source and claims performance comparable to OpenAI&amp;rsquo;s o1 across various tasks.&lt;br&gt;&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/2025_in_artificial_intelligence?utm_source=chatgpt.com&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenAI&amp;rsquo;s Stargate Project&lt;/strong&gt;:&lt;br&gt;&#xA;On January 21, 2025, U.S. President Donald Trump announced the Stargate Project, a joint venture involving OpenAI, Oracle, SoftBank, and MGX. The project aims to build AI infrastructure in the U.S., with an estimated cost of $500 billion over four years.&lt;br&gt;&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/2025_in_artificial_intelligence?utm_source=chatgpt.com&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Testing Different AI Models</title>
       <link>http://localhost:1313/post/tic-tac-toe-test/</link>

@@ -8,7 +8,7 @@ author = "stuffbymax"
 
 # About  
 
-Welcome to our **Wiki & Blog**—a place where knowledge meets discussion! This site is designed to serve as both an **informational wiki** and a **dynamic blog**, covering a wide range of topics.  
+Welcome to **Wiki & Blog**—a place where knowledge meets discussion! This site is designed to serve as both an **informational wiki** and a **dynamic blog**, covering a wide range of topics.  
 
 ## **What You'll Find Here**  
 - **Wiki Articles** – Well-structured, factual, and in-depth information on various topics.  
@@ -17,7 +17,7 @@ Welcome to our **Wiki & Blog**—a place where knowledge meets discussion! This 
 - **Community Contributions** – Readers can contribute, discuss, and expand knowledge collaboratively.  
 
 ## **Why This Site?**  
-We believe in open knowledge sharing. Whether you're looking for **technical guides, AI research, gaming insights, or general knowledge**, this platform provides well-organized content that evolves over time.  
+I believe in open knowledge sharing. Whether you're looking for **technical guides, AI research, gaming insights, or general knowledge**, this platform provides well-organized content that evolves over time.  
 
 ## **How to Contribute**  
 - Want to improve a wiki entry? Feel free to edit and refine!  

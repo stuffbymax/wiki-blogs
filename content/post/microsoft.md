@@ -4,6 +4,7 @@ draft = false
 title = 'How Many Times Could Microsoft Buy Sony?'
 categories = ["Tech News"]
 series = ["Tech"]
+tags = ["Microsoft"]
 aliases = ["microsoft"]
 +++
 # How Many Times Could Microsoft Buy Sony? A Look at Their Market Capitalizations
