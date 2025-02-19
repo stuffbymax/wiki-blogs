@@ -18,8 +18,36 @@
     <item>
       <title>AI</title>
       <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Tue, 18 Feb 2025 18:10:52 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple</title>
+      <link>http://localhost:1313/tags/apple/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/apple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meta</title>
+      <link>http://localhost:1313/tags/meta/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/meta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenAI</title>
+      <link>http://localhost:1313/tags/openai/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum Computing</title>
+      <link>http://localhost:1313/tags/quantum-computing/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quantum-computing/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +55,6 @@
       <link>http://localhost:1313/tags/game-development/</link>
       <pubDate>Tue, 18 Feb 2025 18:10:52 +0000</pubDate>
       <guid>http://localhost:1313/tags/game-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meta</title>
-      <link>http://localhost:1313/tags/meta/</link>
-      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/meta/</guid>
       <description></description>
     </item>
   </channel>
