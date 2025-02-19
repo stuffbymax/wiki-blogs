@@ -1,0 +1,22 @@
+body { 
+	visibility: hidden 
+}
+
+.navmargin {
+	margin-top: 2em;
+}
+
+h2 {
+	color: #FF69B4;
+    white-space: normal;
+}
+
+h1 {
+	color: #ADFF2F;
+    white-space: normal;
+}
+
+p {
+    white-space: normal;
+    color: #FFFFFF;
+}

@@ -6,6 +6,129 @@ body {
 	margin-top: 2em;
 }
 
-h2 {
-    white-space: normal;
+body {
+    background-color: #000000; /* Black background - common for 80s computers */
+    font-family: "VT323", monospace; /* Pixelated monospace font - crucial for 80s vibe */
+    color: #00FF00; /* Green text on black - classic CRT terminal/early PC */
+    margin: 0;
+    padding: 20px; /* Keep some padding */
+    font-size: 20px; /* Larger font size for pixelated fonts to be readable */
+    line-height: 1.4;
+    -webkit-font-smoothing: none; /* Disable font smoothing for pixelated fonts */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- General Container Styles (for boxes) --- */
+.container-box {
+    background-color: #333333; /* Dark gray background for boxes */
+    border: 2px solid #AAAAAA; /* Light gray border for boxes */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0; /* No rounded corners - blocky 80s style */
+}
+
+/* --- "WIKI AND BLOGS" Banner Style --- */
+#wiki-blogs-banner {
+    background-color: #0000FF; /* Bright Blue banner background */
+    color: #FFFFFF; /* White text on blue banner */
+    font-size: 2.8em; /* Larger font size for banner title */
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border: 3px solid #FFFFFF; /* White border around banner */
+}
+
+#wiki-blogs-banner .last-updated {
+    font-size: 0.9em;
+    font-weight: normal;
+    display: block;
+    margin-top: 5px;
+}
+
+/* --- Section Heading Styles --- */
+.section-heading {
+    background-color: #FFFF00; /* Bright Yellow heading background */
+    color: #000000; /* Black text on yellow heading */
+    font-size: 2.2em; /* Larger section headings */
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 2px solid #000000; /* Black border for headings */
+    text-align: left;
+}
+
+/* --- List Styles --- */
+ul.list-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-items li {
+    padding: 6px 0;
+    border-bottom: 1px dashed #666666; /* Darker dashed line for list items */
+}
+
+ul.list-items li:last-child {
+    border-bottom: none;
+}
+
+/* --- Blog Post Titles --- */
+.blog-post-title {
+    font-weight: bold;
+    color: #00FFFF; /* Cyan for blog post titles */
+    text-decoration: none;
+}
+
+.blog-post-date {
+    font-size: 0.9em;
+    color: #999999; /* Slightly darker gray for dates */
+    margin-right: 5px;
+}
+
+/* --- Horizontal Rule Style --- */
+hr {
+    border: 0;
+    border-top: 2px solid #666666; /* Darker solid horizontal rule */
+    margin: 20px 0;
+}
+
+/* --- Footer Style --- */
+#footer {
+    background-color: #000000; /* Black footer background */
+    color: #777777; /* Lighter gray for footer text */
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #777777;
+    margin-top: 25px;
+}
+
+#footer a {
+    color: #00FF00; /* Green links in footer */
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    text-decoration: none;
+}
+
+/* Optional: Scanline effect (if you like it) - adjust opacity if needed */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0px,
+        rgba(0, 0, 0, 0.2) 1px, /* Slightly stronger scanlines */
+        rgba(0, 0, 0, 0) 2px
+    );
+    pointer-events: none;
+    opacity: 0.2; /* Adjust scanline intensity */
+    z-index: -1; /* Put scanlines behind content */
 }
