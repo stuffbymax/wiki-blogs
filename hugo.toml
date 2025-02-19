@@ -19,14 +19,16 @@ preserveTaxonomyNames = true
     copyrightname = "stuffbymax|Martin Petik"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = ""
+    copyrighturl = "https://github.com/stuffbymax/wiki/blob/main/LICENSE"
 
     # Show the "built on Hugo" disclaimer
     showhugo = true
 
     # Urls for social networks
+    source = "https://github.com/stuffbymax/wiki"
     github = "https://github.com/stuffbymax"
     youtube = "https://www.youtube.com/@stuffbymax"
+    
 
     # Enables or disables the loading animations. false activates them. Default is false.
     loadfastload = false
@@ -41,13 +43,13 @@ preserveTaxonomyNames = true
     name = "stuffbymax|Martin Petik"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = ""
+    url = "https://github.com/stuffbymax/wiki/blob/main/LICENSE"
 
     # Text to go before copyright information
     prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "MIT"
+    suffix = "MIT License"
 
 [menu]
   # This displays buttons in the navbar to access your contents
@@ -94,4 +96,3 @@ tag = "tags"
 
   [services.twitter]
     disableInlineCSS = true
-
