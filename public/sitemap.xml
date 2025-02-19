@@ -17,7 +17,13 @@
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2025-02-19T14:34:16+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-19T14:34:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/series/tech/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tech-news/</loc>
@@ -26,7 +32,7 @@
     <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai/</loc>
+    <loc>http://localhost:1313/categories/ai--machine-learning/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/apple/</loc>
@@ -38,16 +44,10 @@
     <loc>http://localhost:1313/tags/meta/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/openai/</loc>
-    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/quantum-computing/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/quantum-computing/</loc>
-    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/technology/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/game-development/</loc>
@@ -56,13 +56,10 @@
     <loc>http://localhost:1313/post/january2025/</loc>
     <lastmod>2025-02-18T18:10:52+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/january25/</loc>
-    <lastmod>2025-02-18T18:10:52+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai--machine-learning/</loc>
+    <loc>http://localhost:1313/series/ai/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cybersecurity/</loc>

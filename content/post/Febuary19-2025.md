@@ -2,7 +2,7 @@
 title = "Latest Tech News 2025-02-19"
 date = 2025-02-19
 description = "A roundup of the latest developments in the tech industry."
-categories= ["AI", "Quantum Computing", "Tech News"]
+categories= ["AI & Machine Learning", "Quantum Computing", "Tech News"]
 series = ["Tech"]
 tags = ["Microsoft", "AI", "Quantum Computing", "Meta", "Apple"]
 +++
