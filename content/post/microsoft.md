@@ -1,7 +1,8 @@
 +++
 date = '2025-02-19T14:34:16Z'
 draft = false
-title = 'How Many Times Could Microsoft Buy Sony?'
+title = "How Many Times Could Microsoft Buy Sony?"
+description = "can Microsoft buy sony?"
 categories = ["Tech News"]
 series = ["Tech"]
 tags = ["Microsoft"]

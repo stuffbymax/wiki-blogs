@@ -3,6 +3,7 @@ author = 'stuffbymax'
 date = '2025-02-18'
 draft = 'false'
 title = "Microsoft Edge's New Scareware Blocker"
+description = "edge Scareware Blocker"
 categories = ["Tech News", "Cybersecurity"]
 series = ["Tech"]
 tags = ["Microsoft"]

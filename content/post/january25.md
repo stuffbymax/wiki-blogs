@@ -1,7 +1,8 @@
 +++
 date = '2025-02-18T18:10:52Z'
 draft = 'false'
-title = 'January25'
+title = "January25 news"
+description = "a news in january"
 categories = ["Tech News"]
 series = ["Tech"]
 tags = ["AI", "Game Development"]
