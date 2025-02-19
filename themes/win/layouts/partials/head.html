@@ -11,14 +11,14 @@
     <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
     <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}/index.xml">
 
-    <!-- iduci dio je Open Graph za Mastodon preview i mozda Twitter -->
+    <!-- next part is Open Graph for Mastodon preview and maybe Twitter -->
     <meta property="og:title" content="{{ .Title }}" />
     <meta property="og:description" content="{{ .Params.description }}" />
-    <meta property="og:image" content="https://www.linuxrenaissance.com/img/darthmic.jpg" />
+    <meta property="og:image" content="" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:type" content="website" />
-
-<!-- komplet style je ubacen da muvam sajt na sredinu a red iznad mi treba za RSS -->
+    
+<!-- the complete style is used to move the site to the middle and I need the top row for RSS -->
 <style>
     body {
         display: flex;
