@@ -16,15 +16,6 @@ preserveTaxonomyNames = true
     # The description of your website. It will be displayed in the home page
     mainpagedesc = "this is a wiki and blogs"
 
-    # The name to display in the copyright section in the footer
-    copyrightname = "stuffbymax|Martin Petik"
-
-    # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "https://github.com/stuffbymax/wiki/blob/main/LICENSE"
-
-    # Show the "built on Hugo" disclaimer
-    showhugo = true
-
     # Urls for social networks
     source = "https://github.com/stuffbymax/wiki"
     github = "https://github.com/stuffbymax"
@@ -44,13 +35,16 @@ preserveTaxonomyNames = true
     name = "stuffbymax|Martin Petik"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "https://github.com/stuffbymax/wiki/blob/main/LICENSE"
+    url = "/LICENSE"
 
     # Text to go before copyright information
     prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = "MIT License"
+    
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
 
 [menu]
   # This displays buttons in the navbar to access your contents
