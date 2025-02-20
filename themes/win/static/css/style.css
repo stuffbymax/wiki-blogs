@@ -1,9 +1,13 @@
 body { 
-	visibility: hidden 
+	visibility: hidden;
 }
 
 .navmargin {
 	margin-top: 2em;
+}
+
+strong {
+color: #00aaff; /* Bright cyan-blue */
 }
 
 
@@ -14,9 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
 body {
 	text-align: center;
     background-color: #000000; /* Black background - common for 80s computers */
-/*
     font-family: "VT323", monospace; /* Pixelated monospace font - crucial for 80s vibe */
-*/
     color: #00FF00; /* Green text on black - classic CRT terminal/early PC */
     margin: 0;
     padding: 20px; /* Keep some padding */
