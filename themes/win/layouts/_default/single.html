@@ -9,60 +9,20 @@
     <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
 </div>
 
-<!-- Like and Dislike Buttons -->
-<button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
-<button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
-
-<script type="module">
-  // Importing Supabase Client from CDN
-  import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
-
-  const supabaseUrl = "{{ .Site.Params.supabase.url }}"; // URL from Hugo Params
-  const supabaseAnonKey = "{{ .Site.Params.supabase.anon_key }}"; // Anon Key from Hugo Params
-  const supabase = createClient(supabaseUrl, supabaseAnonKey);
-
-  const postId = "{{ .Slug }}"; // Using Slug as post_id
-
-  // Fetch current like and dislike counts from Supabase
-  async function fetchCounts() {
-    let { data, error } = await supabase
-      .from("likes_dislikes")
-      .select("likes, dislikes")
-      .eq("post_id", postId)
-      .single();
-
-    if (data) {
-      // Display current like and dislike counts
-      document.getElementById("likeCount").innerText = data.likes;
-      document.getElementById("dislikeCount").innerText = data.dislikes;
-    } else {
-      // If no record exists, create a new one with default counts
-      await supabase.from("likes_dislikes").insert([{ post_id: postId, likes: 0, dislikes: 0 }]);
-    }
-  }
-
-  // Update likes or dislikes in the database
-  async function updateLikes(isLike) {
-    const column = isLike ? "likes" : "dislikes";
-
-    // Call the Supabase function to increment likes or dislikes
-    let { data, error } = await supabase
-      .rpc("increment_counter", { post_id: postId, column_name: column });
-
-    if (!error) {
-      // Refresh counts after update
-      fetchCounts();
-    } else {
-      console.error("Error updating like/dislike count:", error);
-    }
-  }
-
-  // Event listeners for the buttons
-  document.getElementById("likeBtn").addEventListener("click", () => updateLikes(true));
-  document.getElementById("dislikeBtn").addEventListener("click", () => updateLikes(false));
-
-  // Initial fetch to load counts
-  fetchCounts(); 
+<script src="https://giscus.app/client.js"
+        data-repo="stuffbymax/wiki-blogs"
+        data-repo-id="R_kgDON7mYJQ"
+        data-category="General"
+        data-category-id="DIC_kwDON7mYJc4CnJkb"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
 </script>
 
 {{ end }}
