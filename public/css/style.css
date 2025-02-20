@@ -11,10 +11,9 @@ color: #00aaff; /* Bright cyan-blue */
 }
 
 img {
-  filter: none;
+  filter: none !important; /* Remove any applied filters */
+  saturation: 1 !important; /* Ensure the image is not oversaturated */
 }
-
-
 
 h1, h2, h3, h4, h5, h6, p {
     text-align: center;
