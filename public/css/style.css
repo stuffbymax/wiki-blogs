@@ -1,4 +1,5 @@
 body { 
+	text-align: center;
 	visibility: hidden 
 }
 
@@ -6,10 +7,17 @@ body {
 	margin-top: 2em;
 }
 
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+}
+
 body {
 	text-align: center;
     background-color: #000000; /* Black background - common for 80s computers */
+/*
     font-family: "VT323", monospace; /* Pixelated monospace font - crucial for 80s vibe */
+*/
     color: #00FF00; /* Green text on black - classic CRT terminal/early PC */
     margin: 0;
     padding: 20px; /* Keep some padding */
@@ -18,36 +26,6 @@ body {
     -webkit-font-smoothing: none; /* Disable font smoothing for pixelated fonts */
     -moz-osx-font-smoothing: grayscale;
 }
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-
-h5 {
-    text-align: center;
-}
-
-h6 {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-
 
 /* --- General Container Styles (for boxes) --- */
 .container-box {
