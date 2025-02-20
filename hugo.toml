@@ -35,7 +35,7 @@ preserveTaxonomyNames = true
     name = "stuffbymax|Martin Petik"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "./LICENSE"
+    url = "https://github.com/stuffbymax/wiki-blogs/blob/main/LICENSE"
 
     # Text to go before copyright information
     prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
