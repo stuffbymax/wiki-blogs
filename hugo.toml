@@ -90,6 +90,10 @@ series = "series"
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
+    
+   [privacy.source]
+    disabled = false
+    privacyEnhanced = true
 
 [services]
 
