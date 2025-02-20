@@ -69,6 +69,7 @@
     </div>
 </nav><div id="content" class="container">
 
+
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1>Microsoft Edge&#39;s New Scareware Blocker - Tue, Feb 18, 2025</h1>
@@ -129,6 +130,62 @@
 
     <h4><a href="http://localhost:1313/">Back to Home</a></h4>
 </div>
+
+<button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
+<button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
+
+<script type="module">
+  import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co";
+  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww";
+  const supabase = createClient(supabaseUrl, supabaseAnonKey);
+
+  const postId = "7d41cec028d7978426b3aca1d6404a92"; 
+
+  
+  async function fetchCounts() {
+    let { data, error } = await supabase
+      .from("likes_dislikes")
+      .select("likes, dislikes")
+      .eq("post_id", postId)
+      .single();
+
+    if (data) {
+      
+      document.getElementById("likeCount").innerText = data.likes;
+      document.getElementById("dislikeCount").innerText = data.dislikes;
+    } else {
+      
+      await supabase.from("likes_dislikes").insert([{ post_id: postId, likes: 0, dislikes: 0 }]);
+    }
+  }
+
+  
+  async function updateLikes(isLike) {
+    const column = isLike ? "likes" : "dislikes";
+
+    
+    let { data, error } = await supabase
+      .rpc("increment_counter", { post_id: postId, column_name: column });
+
+    if (!error) {
+      
+      fetchCounts();
+    } else {
+      console.error("Error updating like/dislike count:", error);
+    }
+  }
+
+  
+  document.getElementById("likeBtn").addEventListener("click", () => updateLikes(true));
+  document.getElementById("dislikeBtn").addEventListener("click", () => updateLikes(false));
+
+  
+  fetchCounts(); 
+</script>
+
+
 
 
         </div><footer class="container">

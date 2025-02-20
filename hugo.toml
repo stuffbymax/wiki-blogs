@@ -5,6 +5,12 @@ DefaultContentLanguage = "en"
 theme = "win"
 preserveTaxonomyNames = true
 
+
+[params.supabase]
+url = "https://kgnfxoeafncdzfmabwnz.supabase.co"
+anon_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww"
+
+
 [params]
     # The name to display as main title in the home page
     mainpagetitle = "wiki and blogs"

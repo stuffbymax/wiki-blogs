@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
@@ -8,5 +9,61 @@
     {{ .Content }}
     <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
 </div>
+
+<button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
+<button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
+
+<script type="module">
+  import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+  const supabaseUrl = "{{ .Site.Params.supabase.url }}";
+  const supabaseAnonKey = "{{ .Site.Params.supabase.anon_key }}";
+  const supabase = createClient(supabaseUrl, supabaseAnonKey);
+
+  const postId = "{{ .File.UniqueID }}"; // Unique identifier for the post
+
+  // Fetch current like and dislike counts from Supabase
+  async function fetchCounts() {
+    let { data, error } = await supabase
+      .from("likes_dislikes")
+      .select("likes, dislikes")
+      .eq("post_id", postId)
+      .single();
+
+    if (data) {
+      // Display current like and dislike counts
+      document.getElementById("likeCount").innerText = data.likes;
+      document.getElementById("dislikeCount").innerText = data.dislikes;
+    } else {
+      // If no record exists, create a new one with default counts
+      await supabase.from("likes_dislikes").insert([{ post_id: postId, likes: 0, dislikes: 0 }]);
+    }
+  }
+
+  // Update likes or dislikes in the database
+  async function updateLikes(isLike) {
+    const column = isLike ? "likes" : "dislikes";
+
+    // Call the Supabase function to increment likes or dislikes
+    let { data, error } = await supabase
+      .rpc("increment_counter", { post_id: postId, column_name: column });
+
+    if (!error) {
+      // Refresh counts after update
+      fetchCounts();
+    } else {
+      console.error("Error updating like/dislike count:", error);
+    }
+  }
+
+  // Event listeners for the buttons
+  document.getElementById("likeBtn").addEventListener("click", () => updateLikes(true));
+  document.getElementById("dislikeBtn").addEventListener("click", () => updateLikes(false));
+
+  // Initial fetch to load counts
+  fetchCounts(); 
+</script>
+
+
 
 {{ end }}
