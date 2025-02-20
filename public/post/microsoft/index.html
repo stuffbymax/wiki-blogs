@@ -69,7 +69,6 @@
     </div>
 </nav><div id="content" class="container">
 
-
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1>How Many Times Could Microsoft Buy Sony? - Wed, Feb 19, 2025</h1>
@@ -111,17 +110,19 @@
     <h4><a href="http://localhost:1313/">Back to Home</a></h4>
 </div>
 
+
 <button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
 <button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
 
 <script type="module">
+  
   import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co";
-  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww";
+  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co"; 
+  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww"; 
   const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-  const postId = "8f2e7da6ed46c5cfb2b57607a9ccd7b5"; 
+  const postId = ""; 
 
   
   async function fetchCounts() {
@@ -164,8 +165,6 @@
   
   fetchCounts(); 
 </script>
-
-
 
 
         </div><footer class="container">

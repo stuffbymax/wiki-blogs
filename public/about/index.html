@@ -69,7 +69,6 @@
     </div>
 </nav><div id="content" class="container">
 
-
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1>About - Tue, Feb 18, 2025</h1>
@@ -131,17 +130,19 @@ Follow our latest posts, contribute to discussions, and help build a rich, infor
     <h4><a href="http://localhost:1313/">Back to Home</a></h4>
 </div>
 
+
 <button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
 <button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
 
 <script type="module">
+  
   import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co";
-  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww";
+  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co"; 
+  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww"; 
   const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-  const postId = "6083a88ee3411b0d17ce02d738f69d47"; 
+  const postId = ""; 
 
   
   async function fetchCounts() {
@@ -184,8 +185,6 @@ Follow our latest posts, contribute to discussions, and help build a rich, infor
   
   fetchCounts(); 
 </script>
-
-
 
 
         </div><footer class="container">

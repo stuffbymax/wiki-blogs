@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1>{{ .Title }} - {{ .Date.Format "Mon, Jan 2, 2006" }}</h1>
@@ -10,17 +9,19 @@
     <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
 </div>
 
+<!-- Like and Dislike Buttons -->
 <button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
 <button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
 
 <script type="module">
+  // Importing Supabase Client from CDN
   import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-  const supabaseUrl = "{{ .Site.Params.supabase.url }}";
-  const supabaseAnonKey = "{{ .Site.Params.supabase.anon_key }}";
+  const supabaseUrl = "{{ .Site.Params.supabase.url }}"; // URL from Hugo Params
+  const supabaseAnonKey = "{{ .Site.Params.supabase.anon_key }}"; // Anon Key from Hugo Params
   const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-  const postId = "{{ .File.UniqueID }}"; // Unique identifier for the post
+  const postId = "{{ .Slug }}"; // Using Slug as post_id
 
   // Fetch current like and dislike counts from Supabase
   async function fetchCounts() {
@@ -63,7 +64,5 @@
   // Initial fetch to load counts
   fetchCounts(); 
 </script>
-
-
 
 {{ end }}

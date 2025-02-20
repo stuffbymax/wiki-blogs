@@ -69,7 +69,6 @@
     </div>
 </nav><div id="content" class="container">
 
-
 <div class="row-fluid navmargin">
     <div class="page-header">
         <h1>Testing Different AI Models - Tue, Feb 18, 2025</h1>
@@ -196,14 +195,16 @@
     <h4><a href="http://localhost:1313/">Back to Home</a></h4>
 </div>
 
+
 <button id="likeBtn">👍 Like (<span id="likeCount">0</span>)</button>
 <button id="dislikeBtn">👎 Dislike (<span id="dislikeCount">0</span>)</button>
 
 <script type="module">
+  
   import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
 
-  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co";
-  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww";
+  const supabaseUrl = "https:\/\/kgnfxoeafncdzfmabwnz.supabase.co"; 
+  const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtnbmZ4b2VhZm5jZHpmbWFid256Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNzQ0NDIsImV4cCI6MjA1NTY1MDQ0Mn0.he9cz7qjsZN8W03U464xboNS1qyrfwLlRKvljgvJdww"; 
   const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
   const postId = "8bd569ec3b916ba241fc54ce2ee77a21"; 
@@ -249,8 +250,6 @@
   
   fetchCounts(); 
 </script>
-
-
 
 
         </div><footer class="container">
