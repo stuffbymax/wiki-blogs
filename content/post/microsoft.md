@@ -49,3 +49,5 @@ This calculation shows that, based on their current market values, **Microsoft c
 - For now, Sony continues to thrive independently with its key innovations in gaming and entertainment, while Microsoft’s focus remains on dominating areas like cloud computing, enterprise solutions, and, of course, gaming with the Xbox division. 
 
 - In the world of tech, however, anything is possible. Time will tell whether the landscape shifts in ways we can’t yet predict.
+
+---

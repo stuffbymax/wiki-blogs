@@ -17,13 +17,13 @@ aliases = ["facebook-blocks-distrowatch-links"]
 ---
 
 ## **Introduction**
-
+&nbsp;
 In January 2025, Facebook blocked links to DistroWatch, a popular website dedicated to Linux distributions, resulting in warnings and account restrictions for users sharing these links. This incident sparked confusion and raised questions about the reliability and fairness of automated content moderation systems. This report reviews what happened, the reasons behind it, Facebook's response, and the broader implications of overblocking.
 
 ---
 
 ## **What Happened?**
-
+&nbsp;
 - Facebook blocked DistroWatch links in January 2025.  
 
 - Users received warnings and account restrictions for sharing DistroWatch links.  
@@ -35,7 +35,7 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 ---
 
 ## **Why Did Facebook Flag DistroWatch?**
-
+&nbsp;
 - Facebook's cybersecurity filters detected that DistroWatch was linking to an external site that had been compromised, triggering the warning.
 
 - DistroWatch itself was **not** hacked, but the external site it linked to had been. This likely caused Facebook's automated system to blacklist the website.  
@@ -43,7 +43,7 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 - This case highlights the challenges automated systems face in distinguishing between legitimate and compromised content.
 
 ---
-
+&nbsp;
 ## **Was DistroWatch Hacked?**
 
 - **No!** DistroWatch was not compromised.  
@@ -53,7 +53,7 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 ---
 
 ## **Facebook's Response & Reversal**
-
+&nbsp;
 - DistroWatch’s editor, Jesse Smith, tried appealing the block, but his account was locked.  
 
 - Facebook later admitted the block was a mistake and lifted the ban.  
@@ -63,7 +63,7 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 ---
 
 ## **Lessons from the Incident**
-
+&nbsp;
 - **Automated moderation systems can misidentify legitimate sites**: Even trusted websites can be wrongly flagged due to indirect connections to compromised content.
 
 - **False positives happen**: Over-aggressive cybersecurity measures can lead to false positives, where legitimate content is unjustly penalized.
@@ -73,7 +73,7 @@ In January 2025, Facebook blocked links to DistroWatch, a popular website dedica
 ---
 
 ## **Final Thoughts**
-
+&nbsp;
 - This incident serves as a reminder of the difficulties associated with automated content moderation on large platforms like Facebook.  
 
 - While cybersecurity is essential, overblocking legitimate content can lead to unnecessary restrictions and public backlash.

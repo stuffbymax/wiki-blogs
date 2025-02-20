@@ -1,15 +1,14 @@
 +++
 author = "stuffbymax|Martin Petik"
-title = "Latest Tech News 2025-02-19"
+title = "Latest Tech News Febuary 2025-02-19"
 date = 2025-02-19
 description = "A roundup of the latest developments in the tech industry."
 categories= ["AI & Machine Learning", "Quantum Computing", "Tech News"]
 series = ["Tech"]
 tags = ["Microsoft", "AI", "Quantum Computing", "Meta", "Apple"]
 +++
-
-
 ## 🚀 Microsoft Claims Quantum Computing Breakthrough
+&nbsp;
 
 Microsoft has announced a major advancement in quantum computing by successfully harnessing **Majorana fermions**, exotic particles theorized in 1937. This breakthrough could lead to practical quantum computers by the end of the decade, potentially surpassing competitors.
 
@@ -20,7 +19,7 @@ Microsoft has announced a major advancement in quantum computing by successfully
 ---
 
 ## 🤖 OpenAI's Former CTO Launches AI Startup
-
+&nbsp;
 Mira Murati, former **Chief Technology Officer of OpenAI**, has founded a new venture called **Thinking Machines Lab**.
 
 
@@ -33,7 +32,7 @@ Mira Murati, former **Chief Technology Officer of OpenAI**, has founded a new ve
 ---
 
 ## 🚚 Serve Robotics Expands Autonomous Deliveries
-
+&nbsp;
 **Serve Robotics**, known for its self-driving delivery robots, is expanding its operations to **Miami**.
 
 🔹 Partnering with **Shake Shack & Mister O1** via Uber Eats.
@@ -48,6 +47,8 @@ Mira Murati, former **Chief Technology Officer of OpenAI**, has founded a new ve
 
 ## 🧠 Meta's Brain-to-Text Tech Raises Ethical Questions
 
+&nbsp;
+
 Meta has developed **brain-to-text technology** that can decode unspoken sentences from brain signals externally, without invasive procedures.
 
 🔹 Potential for **medical use cases** (e.g., speech-disabled individuals).
@@ -61,7 +62,7 @@ Meta has developed **brain-to-text technology** that can decode unspoken sentenc
 ---
 
 ## 🍏 Apple to Open First Store in Downtown Detroit
-
+&nbsp;
 Apple is set to **open its first store in downtown Detroit**, Michigan.
 
 🔹 The store will be located in **the city's central business district**.

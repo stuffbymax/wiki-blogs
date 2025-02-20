@@ -22,7 +22,7 @@ body {
     color: #00FF00; /* Green text on black - classic CRT terminal/early PC */
     margin: 0;
     padding: 20px; /* Keep some padding */
-    font-size: 20px; /* Larger font size for pixelated fonts to be readable */
+    font-size: 18px; /* Larger font size for pixelated fonts to be readable */
     line-height: 1.4;
     -webkit-font-smoothing: none; /* Disable font smoothing for pixelated fonts */
     -moz-osx-font-smoothing: grayscale;
