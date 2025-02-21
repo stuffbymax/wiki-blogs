@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on wiki</title>
-    <link>https://wiki-blogs/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://wiki-blogs/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>tutorial on power managment xfce4 </title>
-      <link>https://wiki-blogs/post/power-manager/</link>
+      <link>http://localhost:1313/post/power-manager/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://wiki-blogs/post/power-manager/</guid>
-      <description>&lt;h1 id=&#34;how-to-disable-power-saving-mode-on-xfce&#34;&gt;how to disable power saving mode on xfce&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;open-menu&#34;&gt;open menu&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://wiki-blogs/images/tutorials/how-to-power-manager/Screenshot1.png&#34; alt=&#34;screenshoot&#34;&gt;&#xA;&lt;img src=&#34;https://wiki-blogs/images/project-images/bash-pac.png&#34; alt=&#34;bash-pac&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;search-for-power-manager&#34;&gt;search for power manager&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;testoo&#34;&gt;&lt;img src=&#34;https://wiki-blogs/tutorials/how-to-power-manager/Screenshot2.png&#34; alt=&#34;screen2&#34;&gt;&#xA;&lt;img src=&#34;https://wiki-blogs/images/tutorials/how-to-power-manager/Screenshot2.png&#34; alt=&#34;testoo&#34;&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;click-on-it&#34;&gt;click on it&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://wiki-blogs/tutorials/how-to-power-manager/Screenshot3.png&#34; alt=&#34;screen3&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;select-balanced-mode&#34;&gt;select balanced mode&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://wiki-blogs/tutorials/how-to-power-manager/Screenshot4.png&#34; alt=&#34;screen4&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;reboot&#34;&gt;reboot&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://wiki-blogs/tutorials/how-to-power-manager/Screenshot5.png&#34; alt=&#34;screen5&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/power-manager/</guid>
+      <description>&lt;h1 id=&#34;how-to-disable-power-saving-mode-on-xfce&#34;&gt;how to disable power saving mode on xfce&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;open-menu&#34;&gt;open menu&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/tutorials/how-to-power-manager/Screenshot1.png&#34; alt=&#34;screenshoot&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/project-images/bash-pac.png&#34; alt=&#34;bash-pac&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;search-for-power-manager&#34;&gt;search for power manager&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;testoo&#34;&gt;&lt;img src=&#34;http://localhost:1313/tutorials/how-to-power-manager/Screenshot2.png&#34; alt=&#34;screen2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/tutorials/Screenshot2.png&#34; alt=&#34;testoo&#34;&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;click-on-it&#34;&gt;click on it&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tutorials/how-to-power-manager/Screenshot3.png&#34; alt=&#34;screen3&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;select-balanced-mode&#34;&gt;select balanced mode&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tutorials/how-to-power-manager/Screenshot4.png&#34; alt=&#34;screen4&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;reboot&#34;&gt;reboot&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tutorials/how-to-power-manager/Screenshot5.png&#34; alt=&#34;screen5&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How Many Times Could Microsoft Buy Sony?</title>
-      <link>https://wiki-blogs/post/how-many-times-could-microsoft-buy-sony/</link>
+      <link>http://localhost:1313/post/how-many-times-could-microsoft-buy-sony/</link>
       <pubDate>Wed, 19 Feb 2025 14:34:16 +0000</pubDate>
-      <guid>https://wiki-blogs/post/how-many-times-could-microsoft-buy-sony/</guid>
+      <guid>http://localhost:1313/post/how-many-times-could-microsoft-buy-sony/</guid>
       <description>&lt;h1 id=&#34;how-many-times-could-microsoft-buy-sony-a-look-at-their-market-capitalizations&#34;&gt;How Many Times Could Microsoft Buy Sony? A Look at Their Market Capitalizations&lt;/h1&gt;&#xA;&lt;p&gt;The tech industry is known for its ever-changing landscape, with acquisitions often making headlines. But just how far does the financial power of giants like Microsoft stretch? A compelling thought experiment arises when comparing the market capitalizations of two major players: &lt;strong&gt;Microsoft&lt;/strong&gt; and &lt;strong&gt;Sony&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;microsofts-massive-market-cap&#34;&gt;Microsoft’s Massive Market Cap&lt;/h3&gt;&#xA;&lt;p&gt;As of February 2025, &lt;strong&gt;Microsoft&amp;rsquo;s market capitalization&lt;/strong&gt; stands at approximately &lt;strong&gt;$3.045 trillion USD&lt;/strong&gt;. This immense figure reflects Microsoft’s dominant role in the tech space, from software to cloud computing, gaming, and artificial intelligence. With its diverse portfolio and global presence, Microsoft has solidified itself as a behemoth in the business world.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Latest Tech News Febuary 2025-02-19</title>
-      <link>https://wiki-blogs/post/febuary19-2025/</link>
+      <link>http://localhost:1313/post/febuary19-2025/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://wiki-blogs/post/febuary19-2025/</guid>
+      <guid>http://localhost:1313/post/febuary19-2025/</guid>
       <description>&lt;h2 id=&#34;-microsoft-claims-quantum-computing-breakthrough&#34;&gt;🚀 Microsoft Claims Quantum Computing Breakthrough&lt;/h2&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Microsoft has announced a major advancement in quantum computing by successfully harnessing &lt;strong&gt;Majorana fermions&lt;/strong&gt;, exotic particles theorized in 1937. This breakthrough could lead to practical quantum computers by the end of the decade, potentially surpassing competitors.&lt;/p&gt;&#xA;&lt;p&gt;🔹 Microsoft introduced &lt;strong&gt;Majorana 1&lt;/strong&gt;, a processor featuring eight topological qubits, with potential scaling to &lt;strong&gt;one million qubits&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://www.ft.com/content/a60f44f5-81ca-4e66-8193-64c956b09820?utm_source=chatgpt.com&#34;&gt;Read more on FT&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-openais-former-cto-launches-ai-startup&#34;&gt;🤖 OpenAI&amp;rsquo;s Former CTO Launches AI Startup&lt;/h2&gt;&#xA;&lt;p&gt; &#xA;Mira Murati, former &lt;strong&gt;Chief Technology Officer of OpenAI&lt;/strong&gt;, has founded a new venture called &lt;strong&gt;Thinking Machines Lab&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>January2025 news</title>
-      <link>https://wiki-blogs/post/january2025/</link>
+      <link>http://localhost:1313/post/january2025/</link>
       <pubDate>Tue, 18 Feb 2025 18:10:52 +0000</pubDate>
-      <guid>https://wiki-blogs/post/january2025/</guid>
+      <guid>http://localhost:1313/post/january2025/</guid>
       <description>&lt;h1 id=&#34;tech-news---january-2025&#34;&gt;Tech News - January 2025&lt;/h1&gt;&#xA;&lt;h2 id=&#34;artificial-intelligence-and-cybersecurity&#34;&gt;Artificial Intelligence and Cybersecurity&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;DeepSeek&amp;rsquo;s AI Model Release&lt;/strong&gt;:&lt;br&gt;&#xA;On January 20, 2025, Chinese AI startup DeepSeek released the DeepSeek-R1 model, a large language model utilizing chain-of-thought reasoning. This model is open-source and claims performance comparable to OpenAI&amp;rsquo;s o1 across various tasks.&lt;br&gt;&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/2025_in_artificial_intelligence?utm_source=chatgpt.com&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenAI&amp;rsquo;s Stargate Project&lt;/strong&gt;:&lt;br&gt;&#xA;On January 21, 2025, U.S. President Donald Trump announced the Stargate Project, a joint venture involving OpenAI, Oracle, SoftBank, and MGX. The project aims to build AI infrastructure in the U.S., with an estimated cost of $500 billion over four years.&lt;br&gt;&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/2025_in_artificial_intelligence?utm_source=chatgpt.com&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Facebook Blocks DistroWatch Links: A Review of the Incident</title>
-      <link>https://wiki-blogs/post/facebook-blocks-distrowatch/</link>
+      <link>http://localhost:1313/post/facebook-blocks-distrowatch/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://wiki-blogs/post/facebook-blocks-distrowatch/</guid>
+      <guid>http://localhost:1313/post/facebook-blocks-distrowatch/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;facebook-blocks-distrowatch-links-a-review-of-the-incident&#34;&gt;Facebook Blocks DistroWatch Links: A Review of the Incident&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt; &#xA;In January 2025, Facebook blocked links to DistroWatch, a popular website dedicated to Linux distributions, resulting in warnings and account restrictions for users sharing these links. This incident sparked confusion and raised questions about the reliability and fairness of automated content moderation systems. This report reviews what happened, the reasons behind it, Facebook&amp;rsquo;s response, and the broader implications of overblocking.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Microsoft Edge&#39;s New Scareware Blocker</title>
-      <link>https://wiki-blogs/post/microsoft-edge-scareware/</link>
+      <link>http://localhost:1313/post/microsoft-edge-scareware/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://wiki-blogs/post/microsoft-edge-scareware/</guid>
+      <guid>http://localhost:1313/post/microsoft-edge-scareware/</guid>
       <description>&lt;h1 id=&#34;stand-up-to-scareware-with-microsoft-edges-new-scareware-blocker&#34;&gt;Stand Up to Scareware with Microsoft Edge&amp;rsquo;s New Scareware Blocker&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Microsoft Edge is taking a proactive step in protecting users from online scams with its new &lt;strong&gt;Scareware Blocker&lt;/strong&gt; feature. Now available in preview, this tool is designed to detect and block malicious full-screen pop-ups that attempt to deceive users into thinking their computer is infected.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-scareware&#34;&gt;What is Scareware?&lt;/h2&gt;&#xA;&lt;p&gt;Scareware refers to deceptive pop-ups that mimic legitimate security warnings, urging users to call a fake support number or download unnecessary (and often harmful) software. These scams use fear tactics, such as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing Different AI Models</title>
-      <link>https://wiki-blogs/post/tic-tac-toe-test/</link>
+      <link>http://localhost:1313/post/tic-tac-toe-test/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://wiki-blogs/post/tic-tac-toe-test/</guid>
+      <guid>http://localhost:1313/post/tic-tac-toe-test/</guid>
       <description>&lt;h1 id=&#34;tic-tac-toe-ai-evaluation-report&#34;&gt;&lt;strong&gt;Tic-Tac-Toe AI Evaluation Report&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This report evaluates several AI models for a Tic-Tac-Toe game, focusing on performance, design, and gameplay in different modes. The evaluation includes different versions of AI models: ChatGPT-4, Cloud 3.5-Sonnet, Copilot, Gemini 2.0 Flash, and Gemini 2.0 Flash-Experimental.&lt;/p&gt;&#xA;&lt;p&gt;the promt was runed only once per AI&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-chatgpt-4&#34;&gt;&lt;strong&gt;1. ChatGPT-4&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Fast.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Player vs AI&lt;/strong&gt;: Works well, providing a smooth experience.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;: Simple, intuitive, but slightly lacking in aesthetics compared to others.&lt;/p&gt;</description>
     </item>
   </channel>

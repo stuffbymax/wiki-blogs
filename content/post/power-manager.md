@@ -24,7 +24,7 @@ aliases = ["xfce-power-manager"]
 ## search for power manager
 -
 ![screen2](/tutorials/how-to-power-manager/Screenshot2.png)
-![testoo](/images/tutorials/how-to-power-manager/Screenshot2.png)
+![testoo](/images/tutorials/Screenshot2.png)
 ---
 
 ## click on it
