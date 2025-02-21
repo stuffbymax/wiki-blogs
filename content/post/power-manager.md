@@ -6,7 +6,7 @@ title = "tutorial on power managment xfce4 "
 description = "first tutorial on this site btw"
 categories = ["Tutorial"]
 series = ["Tech"]
-tags = ["xfce4", "arch", "linux""]
+tags = ["xfce4", "arch", "linux"]
 aliases = ["xfce-power-manager"]
 +++
 

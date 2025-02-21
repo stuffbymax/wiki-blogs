@@ -9,10 +9,24 @@
     <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Xfce4, Arch, Linux</title>
-      <link>http://localhost:1313/tags/xfce4-arch-linux/</link>
+      <title>Arch</title>
+      <link>http://localhost:1313/tags/arch/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/xfce4-arch-linux/</guid>
+      <guid>http://localhost:1313/tags/arch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xfce4</title>
+      <link>http://localhost:1313/tags/xfce4/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/xfce4/</guid>
       <description></description>
     </item>
     <item>
