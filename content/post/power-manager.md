@@ -41,3 +41,12 @@ aliases = ["xfce-power-manager"]
 ## reboot 
 -
 ![screen5](/tutorials/how-to-power-manager/Screenshot5.png)
+
+# test
+
+![screen](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot1.png)
+![screen2](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot2.png)
+![screen3](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot3.png)
+![screen4](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot4.png)
+![screen5](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot5.png)
+
