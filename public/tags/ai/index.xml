@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on wiki</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on wiki</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latest Tech News Febuary 2025-02-19</title>
+      <link>http://localhost:1313/post/febuary19-2025/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/febuary19-2025/</guid>
+      <description>&lt;h2 id=&#34;-microsoft-claims-quantum-computing-breakthrough&#34;&gt;🚀 Microsoft Claims Quantum Computing Breakthrough&lt;/h2&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Microsoft has announced a major advancement in quantum computing by successfully harnessing &lt;strong&gt;Majorana fermions&lt;/strong&gt;, exotic particles theorized in 1937. This breakthrough could lead to practical quantum computers by the end of the decade, potentially surpassing competitors.&lt;/p&gt;&#xA;&lt;p&gt;🔹 Microsoft introduced &lt;strong&gt;Majorana 1&lt;/strong&gt;, a processor featuring eight topological qubits, with potential scaling to &lt;strong&gt;one million qubits&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;🔗 &lt;a href=&#34;https://www.ft.com/content/a60f44f5-81ca-4e66-8193-64c956b09820?utm_source=chatgpt.com&#34;&gt;Read more on FT&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-openais-former-cto-launches-ai-startup&#34;&gt;🤖 OpenAI&amp;rsquo;s Former CTO Launches AI Startup&lt;/h2&gt;&#xA;&lt;p&gt; &#xA;Mira Murati, former &lt;strong&gt;Chief Technology Officer of OpenAI&lt;/strong&gt;, has founded a new venture called &lt;strong&gt;Thinking Machines Lab&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>January2025 news</title>
+      <link>http://localhost:1313/post/january2025/</link>
+      <pubDate>Tue, 18 Feb 2025 18:10:52 +0000</pubDate>
+      <guid>http://localhost:1313/post/january2025/</guid>
+      <description>&lt;h1 id=&#34;tech-news---january-2025&#34;&gt;Tech News - January 2025&lt;/h1&gt;&#xA;&lt;h2 id=&#34;artificial-intelligence-and-cybersecurity&#34;&gt;Artificial Intelligence and Cybersecurity&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;DeepSeek&amp;rsquo;s AI Model Release&lt;/strong&gt;:&lt;br&gt;&#xA;On January 20, 2025, Chinese AI startup DeepSeek released the DeepSeek-R1 model, a large language model utilizing chain-of-thought reasoning. This model is open-source and claims performance comparable to OpenAI&amp;rsquo;s o1 across various tasks.&lt;br&gt;&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/2025_in_artificial_intelligence?utm_source=chatgpt.com&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenAI&amp;rsquo;s Stargate Project&lt;/strong&gt;:&lt;br&gt;&#xA;On January 21, 2025, U.S. President Donald Trump announced the Stargate Project, a joint venture involving OpenAI, Oracle, SoftBank, and MGX. The project aims to build AI infrastructure in the U.S., with an estimated cost of $500 billion over four years.&lt;br&gt;&#xA;&lt;a href=&#34;https://en.wikipedia.org/wiki/2025_in_artificial_intelligence?utm_source=chatgpt.com&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Testing Different AI Models</title>
+      <link>http://localhost:1313/post/tic-tac-toe-test/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/tic-tac-toe-test/</guid>
+      <description>&lt;h1 id=&#34;tic-tac-toe-ai-evaluation-report&#34;&gt;&lt;strong&gt;Tic-Tac-Toe AI Evaluation Report&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This report evaluates several AI models for a Tic-Tac-Toe game, focusing on performance, design, and gameplay in different modes. The evaluation includes different versions of AI models: ChatGPT-4, Cloud 3.5-Sonnet, Copilot, Gemini 2.0 Flash, and Gemini 2.0 Flash-Experimental.&lt;/p&gt;&#xA;&lt;p&gt;the promt was runed only once per AI&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-chatgpt-4&#34;&gt;&lt;strong&gt;1. ChatGPT-4&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Fast.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Player vs AI&lt;/strong&gt;: Works well, providing a smooth experience.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;: Simple, intuitive, but slightly lacking in aesthetics compared to others.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
