@@ -14,39 +14,37 @@ aliases = ["xfce-power-manager"]
 
 ---
 
-## open menu
+### open menu
 -
-![screen](/images/tutorials/how-to-power-manager/Screenshot1.png)
+![screen](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot1.png)
 
 ---
 
-## search for power manager
+### search for power manager
 -
-![screen2](/tutorials/how-to-power-manager/Screenshot2.png)
+![screen2](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot2.png)
 
 ---
 
-## click on it
+### click on it
 -
-![screen3](/tutorials/how-to-power-manager/Screenshot3.png) 
+![screen3](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot3.png)
 
 ---
 
-## select balanced mode
+### select balanced mode
 -
-![screen4](/tutorials/how-to-power-manager/Screenshot4.png)
+![screen4](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot4.png)
 
 ---
 
-## reboot 
+### reboot 
 -
-![screen5](/tutorials/how-to-power-manager/Screenshot5.png)
+![screen5](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot5.png)
 
 # test
 
-![screen](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot1.png)
-![screen2](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot2.png)
-![screen3](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot3.png)
-![screen4](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot4.png)
-![screen5](/wiki-blogs/images/tutorials/how-to-power-manager/Screenshot5.png)
+
+
+
 
