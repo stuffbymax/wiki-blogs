@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on wiki</title>
-    <link>http://localhost:1313/series/</link>
+    <link>https://wiki-blogs/series/</link>
     <description>Recent content in Series on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wiki-blogs/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>http://localhost:1313/series/tech/</link>
+      <link>https://wiki-blogs/series/tech/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/tech/</guid>
+      <guid>https://wiki-blogs/series/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/series/ai/</link>
+      <link>https://wiki-blogs/series/ai/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/series/ai/</guid>
+      <guid>https://wiki-blogs/series/ai/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,94 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wiki-blogs/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/arch/</loc>
+    <loc>https://wiki-blogs/tags/arch/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wiki-blogs/categories/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://wiki-blogs/tags/linux/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://wiki-blogs/post/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://wiki-blogs/series/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://wiki-blogs/tags/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/tech/</loc>
+    <loc>https://wiki-blogs/series/tech/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tutorial/</loc>
+    <loc>https://wiki-blogs/categories/tutorial/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/power-manager/</loc>
+    <loc>https://wiki-blogs/post/power-manager/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/xfce4/</loc>
+    <loc>https://wiki-blogs/tags/xfce4/</loc>
     <lastmod>2025-02-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/how-many-times-could-microsoft-buy-sony/</loc>
+    <loc>https://wiki-blogs/post/how-many-times-could-microsoft-buy-sony/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/microsoft/</loc>
+    <loc>https://wiki-blogs/tags/microsoft/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech-news/</loc>
+    <loc>https://wiki-blogs/categories/tech-news/</loc>
     <lastmod>2025-02-19T14:34:16+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://wiki-blogs/tags/ai/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai--machine-learning/</loc>
+    <loc>https://wiki-blogs/categories/ai--machine-learning/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/apple/</loc>
+    <loc>https://wiki-blogs/tags/apple/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/febuary19-2025/</loc>
+    <loc>https://wiki-blogs/post/febuary19-2025/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/meta/</loc>
+    <loc>https://wiki-blogs/tags/meta/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/quantum-computing/</loc>
+    <loc>https://wiki-blogs/tags/quantum-computing/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/quantum-computing/</loc>
+    <loc>https://wiki-blogs/categories/quantum-computing/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/game-development/</loc>
+    <loc>https://wiki-blogs/tags/game-development/</loc>
     <lastmod>2025-02-18T18:10:52+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/january2025/</loc>
+    <loc>https://wiki-blogs/post/january2025/</loc>
     <lastmod>2025-02-18T18:10:52+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wiki-blogs/about/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/ai/</loc>
+    <loc>https://wiki-blogs/series/ai/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/cybersecurity/</loc>
+    <loc>https://wiki-blogs/categories/cybersecurity/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/facebook-blocks-distrowatch/</loc>
+    <loc>https://wiki-blogs/post/facebook-blocks-distrowatch/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/microsoft-edge-scareware/</loc>
+    <loc>https://wiki-blogs/post/microsoft-edge-scareware/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech-reviews/</loc>
+    <loc>https://wiki-blogs/categories/tech-reviews/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/tic-tac-toe-test/</loc>
+    <loc>https://wiki-blogs/post/tic-tac-toe-test/</loc>
     <lastmod>2025-02-18T00:00:00+00:00</lastmod>
   </url>
 </urlset>

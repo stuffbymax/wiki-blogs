@@ -16,14 +16,15 @@ aliases = ["xfce-power-manager"]
 
 ## open menu
 -
-![screen](/images/tutorials/how-to-power-manager/Screenshot1.png)
+![screenshoot](/images/tutorials/how-to-power-manager/Screenshot1.png)
+![bash-pac](/images/project-images/bash-pac.png)
 
 ---
 
 ## search for power manager
 -
 ![screen2](/tutorials/how-to-power-manager/Screenshot2.png)
-
+![testoo](/images/tutorials/how-to-power-manager/Screenshot2.png)
 ---
 
 ## click on it
