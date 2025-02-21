@@ -16,7 +16,7 @@ aliases = ["xfce-power-manager"]
 
 ## open menu
 -
-![screen](/tutorials/how-to-power-manager/Screenshot1.png)
+![screen](/static/tutorials/how-to-power-manager/Screenshot1.png)
 
 ---
 
