@@ -6,8 +6,15 @@
     <description>Recent content in Tags on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple</title>
+      <link>http://localhost:1313/wiki-blogs/tags/apple/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/apple/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Arch</title>
       <link>http://localhost:1313/wiki-blogs/tags/arch/</link>
@@ -41,13 +48,6 @@
       <link>http://localhost:1313/wiki-blogs/tags/ai/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/wiki-blogs/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apple</title>
-      <link>http://localhost:1313/wiki-blogs/tags/apple/</link>
-      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/apple/</guid>
       <description></description>
     </item>
     <item>

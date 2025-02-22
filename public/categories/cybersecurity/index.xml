@@ -6,8 +6,15 @@
     <description>Recent content in Cybersecurity on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/categories/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple’s Privacy U-Turn: Government Access to Your Data</title>
+      <link>http://localhost:1313/wiki-blogs/post/this-is-sad-for-our-privacy/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/this-is-sad-for-our-privacy/</guid>
+      <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;h1 id=&#34;apples-shift-on-privacy-a-compromise-with-government-surveillance&#34;&gt;Apple’s Shift on Privacy: A Compromise with Government Surveillance?&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;a-history-of-privacy-advocacy&#34;&gt;A History of Privacy Advocacy&lt;/h2&gt;&#xA;&lt;p&gt;Apple has long positioned itself as a champion of user privacy. The company famously clashed with the FBI in 2016 over unlocking an iPhone used by a terrorist, emphasizing that creating backdoors would weaken security for all users. Its strong encryption policies once set it apart from other tech giants.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;but-now-they-only-care-about-money&#34;&gt;But Now They Only Care About Money&lt;/h2&gt;&#xA;&lt;p&gt;Apple&amp;rsquo;s policy shift is particularly evident in the UK, where the government has requested a backdoor into Apple’s encrypted services under the &lt;strong&gt;Investigatory Powers Act&lt;/strong&gt;, also known as the &lt;em&gt;Snooper&amp;rsquo;s Charter&lt;/em&gt;. This legislation requires tech companies to provide law enforcement with access to encrypted communications upon request.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Facebook Blocks DistroWatch Links: A Review of the Incident</title>
       <link>http://localhost:1313/wiki-blogs/post/facebook-blocks-distrowatch/</link>
