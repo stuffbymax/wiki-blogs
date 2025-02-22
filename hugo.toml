@@ -11,7 +11,7 @@ preserveTaxonomyNames = true
 
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "Welcome to the early 90s! "
-    lastupdate = "last update 2025-02-22 04:36" 
+    lastupdate = "last update 2025-02-22 23:58" 
 
     # The description of your website. It will be displayed in the home page
     mainpagedesc = "this is a wiki and blogs"
@@ -53,6 +53,19 @@ preserveTaxonomyNames = true
     name = "About"       # A display name for the button
     url = "/about/"      # The path to the content. It can lead to a single page (like here)
     weight = 10          # A number to order the buttons in the navbar
+    
+  [[menu.main]]
+    identifier = "portfolio" # An unique identifier for the button
+    name = "portfolio"       # A display name for the button
+    url = "https://stuffbymax.me/"      # The path to the content. It can lead to a single page (like here)
+    weight = 20          # A number to order the buttons in the navbar
+    
+      [[menu.main]]
+    identifier = "cv" # An unique identifier for the button
+    name = "cv"       # A display name for the button
+    url = "https://stuffbymax.me/cv"      # The path to the content. It can lead to a single page (like here)
+    weight = 30         # A number to order the buttons in the navbar
+    
 
   [[menu.main]]
     identifier = "posts"

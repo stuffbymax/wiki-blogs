@@ -6,8 +6,15 @@
     <description>Recent content in Categories on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 23:49:10 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Projects</title>
+      <link>http://localhost:1313/wiki-blogs/categories/personal-projects/</link>
+      <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/categories/personal-projects/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cybersecurity</title>
       <link>http://localhost:1313/wiki-blogs/categories/cybersecurity/</link>
