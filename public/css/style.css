@@ -2,6 +2,57 @@ body {
 	visibility: hidden;
 }
 
+/* Default Navbar Style */
+.navbar {
+    background-color: #333333; /* Dark background */
+    overflow: hidden; /* Ensure the content stays within the container */
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block; /* Use inline-block for horizontal links */
+    color: #00FF00; /* Green text */
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #00aaff; /* Cyan on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+/* Responsive Design for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar a {
+        display: block; /* Stack the links vertically */
+        width: 100%; /* Make each link take full width */
+        text-align: left; /* Align text to the left */
+    }
+
+    /* Navbar Toggle Button */
+    .navbar .icon {
+        display: block; /* Show the hamburger icon on mobile */
+        background-color: #333333;
+        color: #00FF00;
+        padding: 14px;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive .navbar a {
+        display: block; /* Links stacked on mobile */
+        width: 100%;
+    }
+}
+
+
 .navmargin {
 	margin-top: 2em;
 }
@@ -146,4 +197,3 @@ body::after {
     opacity: 0.2; /* Adjust scanline intensity */
     z-index: -1; /* Put scanlines behind content */
 }
-
