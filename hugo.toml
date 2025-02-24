@@ -58,13 +58,13 @@ preserveTaxonomyNames = true
     identifier = "portfolio" # An unique identifier for the button
     name = "portfolio"       # A display name for the button
     url = "https://stuffbymax.me/"      # The path to the content. It can lead to a single page (like here)
-    weight = 20          # A number to order the buttons in the navbar
+    weight = 10          # A number to order the buttons in the navbar
     
       [[menu.main]]
     identifier = "cv" # An unique identifier for the button
     name = "cv"       # A display name for the button
     url = "https://stuffbymax.me/cv"      # The path to the content. It can lead to a single page (like here)
-    weight = 30         # A number to order the buttons in the navbar
+    weight = 10         # A number to order the buttons in the navbar
     
 
   [[menu.main]]
