@@ -6,8 +6,15 @@
     <description>Recent content in Linux on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 09:24:14 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure FTP Server Setup on Arch Linux: A Tutorial</title>
+      <link>http://localhost:1313/wiki-blogs/post/secure-ftp/</link>
+      <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/secure-ftp/</guid>
+      <description>&lt;h1 id=&#34;secure-ftp-server-setup-on-arch-linux-a-tutorial&#34;&gt;Secure FTP Server Setup on Arch Linux: A Tutorial&lt;/h1&gt;&#xA;&lt;p&gt;This tutorial will guide you through setting up a secure FTP (FTPS) server on Arch Linux using &lt;code&gt;vsftpd&lt;/code&gt;.  It uses passive mode for better compatibility with firewalls, and enforces SSL/TLS encryption for secure data transfer.  The tutorial uses &lt;code&gt;ftpuser&lt;/code&gt; as an example user; remember to change this in production environments.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Arch Linux Installation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A working Arch Linux installation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Root Access:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>tutorial on power managment xfce4 </title>
       <link>http://localhost:1313/wiki-blogs/post/power-manager/</link>

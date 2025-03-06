@@ -13,7 +13,7 @@
       <link>http://localhost:1313/wiki-blogs/post/open-pad/</link>
       <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
       <guid>http://localhost:1313/wiki-blogs/post/open-pad/</guid>
-      <description></description>
+      <description>&lt;iframe frameborder=&#34;0&#34; &#xA;        src=&#34;https://itch.io/embed/3352351?border_width=2&amp;amp;bg_color=000000&amp;amp;fg_color=ffffff&amp;amp;border_color=ffffff&#34; &#xA;        width=&#34;554&#34; &#xA;        height=&#34;169&#34;&gt;&#xA;    &lt;a href=&#34;https://stuff-by-max.itch.io/open-pad&#34;&gt;Open Pad (alpha) by stuff by max&lt;/a&gt;&#xA;&lt;/iframe&gt;</description>
     </item>
   </channel>
 </rss>

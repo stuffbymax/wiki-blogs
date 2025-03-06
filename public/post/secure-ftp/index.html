@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/wiki-blogs/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=wiki-blogs/livereload" data-no-instant defer></script>
+    <title>wiki</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="http://localhost:1313/wiki-blogs//favicon.ico">
+    <link rel="canonical" href="http://localhost:1313/wiki-blogs/">
+    
+    
+    <link rel="alternate" type="application/rss+xml" title="wiki" href="http://localhost:1313/wiki-blogs//index.xml">
+
+    
+    <meta property="og:title" content="Secure FTP Server Setup on Arch Linux: A Tutorial" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="http://localhost:1313/wiki-blogs/post/secure-ftp/" />
+    <meta property="og:type" content="website" />
+    
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    #content {
+        text-align: left;  
+    }
+</style>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="http://localhost:1313/wiki-blogs/">wiki</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/wiki-blogs/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/wiki-blogs/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="https://stuffbymax.me/cv">
+                                    
+                                    <span>cv</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="https://stuffbymax.me/">
+                                    
+                                    <span>portfolio</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Secure FTP Server Setup on Arch Linux: A Tutorial - Thu, Feb 27, 2025</h1>
+    </div>
+    <p class="lead"></p>
+    <h1 id="secure-ftp-server-setup-on-arch-linux-a-tutorial">Secure FTP Server Setup on Arch Linux: A Tutorial</h1>
+<p>This tutorial will guide you through setting up a secure FTP (FTPS) server on Arch Linux using <code>vsftpd</code>.  It uses passive mode for better compatibility with firewalls, and enforces SSL/TLS encryption for secure data transfer.  The tutorial uses <code>ftpuser</code> as an example user; remember to change this in production environments.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p><strong>Arch Linux Installation:</strong></p>
+<p>A working Arch Linux installation.</p>
+<p><strong>Root Access:</strong></p>
+<p>You will need root privileges to run the commands.</p>
+<p><strong>Basic Linux Knowledge:</strong></p>
+<p>Familiarity with command-line operations and text editing.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>
+<p><strong>Update System Packages:</strong></p>
+<p>Open a terminal and update your system packages to ensure you have the latest versions.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -Syu
+</span></span></code></pre></div><p>This command synchronizes the package database and updates all installed packages.  The <code>-Syu</code> flag combines <code>-Sy</code> (sync package database) and <code>-Su</code> (update system).</p>
+</li>
+<li>
+<p><strong>Install <code>vsftpd</code>:</strong></p>
+<p>Install the <code>vsftpd</code> package.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S vsftpd
+</span></span></code></pre></div><p>This command downloads and installs the <code>vsftpd</code> package from the Arch Linux repositories.</p>
+</li>
+<li>
+<p><strong>Backup Existing Configuration:</strong></p>
+<p>Before modifying the configuration file, create a backup of the original <code>vsftpd.conf</code> file.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.bak
+</span></span></code></pre></div><p>This command copies the original configuration file to a backup named <code>vsftpd.conf.bak</code>.</p>
+</li>
+<li>
+<p><strong>Configure <code>vsftpd</code>:</strong></p>
+<p>Create a new <code>vsftpd.conf</code> file with the following configuration settings. This configuration enables secure connections and restricts user access.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/vsftpd.conf
+</span></span></code></pre></div><p>Paste the following configuration into the file:</p>
+<pre tabindex="0"><code># Basic Configurations
+listen=YES
+listen_ipv6=NO
+anonymous_enable=NO
+local_enable=YES
+write_enable=YES
+local_umask=022
+dirmessage_enable=YES
+use_localtime=YES
+xferlog_enable=YES
+connect_from_port_20=YES
+xferlog_file=/var/log/vsftpd.log
+xferlog_std_format=YES
+ftpd_banner=Welcome to Secure FTP Server.
+chroot_local_user=YES
+allow_writeable_chroot=NO
+secure_chroot_dir=/var/run/vsftpd/empty
+
+# Passive Mode Configuration
+pasv_enable=YES
+pasv_min_port=10000
+pasv_max_port=10100
+pasv_address=&lt;YOUR_PUBLIC_IP_ADDRESS&gt;
+
+# Logging
+log_ftp_protocol=YES
+vsftpd_log_file=/var/log/vsftpd.log
+
+# Security Settings
+ssl_enable=YES
+rsa_cert_file=/etc/ssl/certs/vsftpd.pem
+rsa_private_key_file=/etc/ssl/private/vsftpd.key
+ssl_tlsv1=YES
+ssl_sslv2=NO
+ssl_sslv3=NO
+require_ssl_cert=YES
+require_ssl_reuse=NO
+</code></pre><p><strong>Important Notes:</strong></p>
+<ul>
+<li><strong><code>pasv_address</code>:</strong> Replace <code>&lt;YOUR_PUBLIC_IP_ADDRESS&gt;</code> with the <em>public</em> IP address of your server.  If you&rsquo;re behind a NAT router, this is crucial for passive mode to work correctly.  You can often find your public IP address by visiting <code>https://api.ipify.org</code> from a browser on the server or using <code>curl https://api.ipify.org</code>.</li>
+<li><strong><code>chroot_local_user=YES</code>:</strong> This confines users to their home directories.  This is a key security measure.</li>
+<li><strong><code>allow_writeable_chroot=NO</code>:</strong>  This setting <em>prevents</em> users from writing to their chroot directory. When <code>chroot_local_user=YES</code>, it&rsquo;s very dangerous to allow the chroot directory to be writable. Without this setting, users could potentially escalate privileges.</li>
+<li><strong><code>secure_chroot_dir=/var/run/vsftpd/empty</code>:</strong>  This setting specifies an empty directory that <code>vsftpd</code> uses for security.  The directory <em>must</em> be owned by root and <em>must not</em> be writable by anyone else.</li>
+<li><strong><code>ssl_tlsv1=YES</code>:</strong> Enables TLS v1.0 or higher.</li>
+<li><strong><code>ssl_sslv2=NO</code> and <code>ssl_sslv3=NO</code>:</strong> Disables the use of SSLv2 and SSLv3 which are considered insecure protocols.</li>
+<li><strong><code>require_ssl_cert=YES</code>:</strong> Requires client to provide a certificate if <code>ssl_enable</code> is activated.</li>
+<li><strong><code>require_ssl_reuse=NO</code>:</strong> Prevents SSL session reuse, mitigating certain security vulnerabilities.</li>
+</ul>
+<p>Save the file and exit the editor. (In <code>nano</code>, press <code>Ctrl+X</code>, then <code>Y</code>, then <code>Enter</code>.)</p>
+</li>
+<li>
+<p><strong>Generate SSL Certificates:</strong></p>
+<p>Create a directory to store the private key and generate self-signed SSL certificates.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mkdir -p /etc/ssl/private
+</span></span><span style="display:flex;"><span>sudo openssl req -newkey rsa:2048 -nodes -keyout /etc/ssl/private/vsftpd.key -x509 -days <span style="color:#ae81ff">365</span> -out /etc/ssl/certs/vsftpd.pem -subj <span style="color:#e6db74">&#34;/CN=FTPServer&#34;</span>
+</span></span><span style="display:flex;"><span>sudo chmod <span style="color:#ae81ff">600</span> /etc/ssl/private/vsftpd.key
+</span></span></code></pre></div><p>This command generates a 2048-bit RSA key and a self-signed certificate valid for 365 days.  The <code>-subj</code> flag sets the subject name of the certificate.  The <code>chmod 600</code> command restricts access to the private key to the root user only.  Provide appropriate information when prompted.</p>
+</li>
+<li>
+<p><strong>Create an FTP User:</strong></p>
+<p>Create a dedicated user for FTP access.  This example uses <code>ftpuser</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo useradd -m ftpuser
+</span></span><span style="display:flex;"><span>sudo passwd ftpuser
+</span></span></code></pre></div><p>This command creates a new user named <code>ftpuser</code> with a home directory. You will be prompted to set a password for the user. <strong>Remember this password!</strong></p>
+<p>To provide the user with an <code>upload</code> directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mkdir -p /home/ftpuser/ftp/upload
+</span></span><span style="display:flex;"><span>sudo chown -R ftpuser:ftpuser /home/ftpuser/ftp
+</span></span><span style="display:flex;"><span>sudo chmod -R <span style="color:#ae81ff">750</span> /home/ftpuser/ftp
+</span></span></code></pre></div><ul>
+<li><code>chown -R ftpuser:ftpuser</code>: Sets the owner and group of the <code>/home/ftpuser/ftp</code> directory and its contents to <code>ftpuser</code>.</li>
+<li><code>chmod -R 750</code>:  Sets permissions:
+<ul>
+<li>User (owner): Read, write, and execute permissions (7).</li>
+<li>Group: Read and execute permissions (5).</li>
+<li>Others: No permissions (0). This prevents other users from accessing the files.</li>
+</ul>
+</li>
+<li>The owner of the directory <code>/home/ftpuser/ftp/upload</code> is now <code>ftpuser</code>, and the group is <code>ftpuser</code>. This ensures that only <code>ftpuser</code> (or users with the appropriate group membership) can manage the files within that directory. This combination makes sure the <code>chroot</code> is secure.</li>
+</ul>
+</li>
+<li>
+<p><strong>Enable and Start <code>vsftpd</code> Service:</strong></p>
+<p>Enable and start the <code>vsftpd</code> service to make it run on boot.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl enable vsftpd
+</span></span><span style="display:flex;"><span>sudo systemctl start vsftpd
+</span></span></code></pre></div><p>The <code>systemctl enable</code> command creates symbolic links to automatically start the service at boot time.  The <code>systemctl start</code> command starts the service immediately.</p>
+<p>You can check the status of the service with:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl status vsftpd
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Configure the Firewall:</strong></p>
+<p>Arch Linux commonly uses <code>iptables</code> or <code>ufw</code>.  This example shows <code>iptables</code>. Adjust based on your firewall setup.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo iptables -A INPUT -p tcp --dport <span style="color:#ae81ff">21</span> -j ACCEPT
+</span></span><span style="display:flex;"><span>sudo iptables -A INPUT -p tcp --dport 10000:10100 -j ACCEPT
+</span></span></code></pre></div><p>These commands allow incoming TCP connections on port 21 (FTP control port) and the passive mode port range (10000-10100).  <strong>Warning:</strong>  Make sure you have SSH access allowed before making firewall changes, or you might lock yourself out of the server!  You might need to adjust these rules depending on the specific needs of your network. Consider adding a rule for the SSH port (usually 22) if needed.
+To save iptables rules so that they persist after reboot, you will need to install and use <code>iptables-persistent</code> or similar.</p>
+</li>
+<li>
+<p><strong>Test the FTP Server:</strong></p>
+<p>You can test the FTP server from a local machine or another machine on the network using an FTP client such as FileZilla.</p>
+<ul>
+<li><strong>Hostname/IP:</strong> The IP address of your Arch Linux server.</li>
+<li><strong>Username:</strong> <code>ftpuser</code> (or the user you created).</li>
+<li><strong>Password:</strong> The password you set for the user.</li>
+<li><strong>Port:</strong> 21</li>
+<li><strong>Encryption:</strong>  Explicit FTPS.  (This depends on the client; some call it &ldquo;FTP with explicit TLS/SSL&rdquo; or similar.)</li>
+</ul>
+<p><strong>Important:</strong>  Ensure that your FTP client is configured to use explicit FTPS and passive mode.</p>
+</li>
+</ol>
+<h2 id="complete-script-for-convenience">Complete Script (for convenience)</h2>
+<p>Here&rsquo;s the complete script equivalent to the tutorial:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Exit immediately if a command exits with a non-zero status</span>
+</span></span><span style="display:flex;"><span>set -e
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Ensure the script is run as root</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> $EUID -ne <span style="color:#ae81ff">0</span> <span style="color:#f92672">]]</span>; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>   echo <span style="color:#e6db74">&#34;This script must be run as root&#34;</span>
+</span></span><span style="display:flex;"><span>   exit <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Updating package database...&#34;</span>
+</span></span><span style="display:flex;"><span>pacman -Syu --noconfirm
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Installing vsftpd...&#34;</span>
+</span></span><span style="display:flex;"><span>pacman -S vsftpd --noconfirm
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Backing up the original configuration file...&#34;</span>
+</span></span><span style="display:flex;"><span>cp /etc/vsftpd.conf /etc/vsftpd.conf.bak
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Writing a new vsftpd configuration file...&#34;</span>
+</span></span><span style="display:flex;"><span>cat <span style="color:#e6db74">&lt;&lt;EOL &gt; /etc/vsftpd.conf
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># Basic Configurations
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">listen=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">listen_ipv6=NO
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">anonymous_enable=NO
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">local_enable=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">write_enable=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">local_umask=022
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">dirmessage_enable=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">use_localtime=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">xferlog_enable=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">connect_from_port_20=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">xferlog_file=/var/log/vsftpd.log
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">xferlog_std_format=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ftpd_banner=Welcome to Secure FTP Server.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">chroot_local_user=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">allow_writeable_chroot=NO
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">secure_chroot_dir=/var/run/vsftpd/empty
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># Passive Mode Configuration
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">pasv_enable=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">pasv_min_port=10000
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">pasv_max_port=10100
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">pasv_address=$(ip addr show | grep &#34;inet &#34; | grep -v &#34;127.0.0.1&#34; | awk &#39;{print $2}&#39; | cut -d&#39;/&#39; -f1)
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># Logging
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">log_ftp_protocol=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">vsftpd_log_file=/var/log/vsftpd.log
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># Security Settings
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ssl_enable=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">rsa_cert_file=/etc/ssl/certs/vsftpd.pem
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">rsa_private_key_file=/etc/ssl/private/vsftpd.key
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ssl_tlsv1=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ssl_sslv2=NO
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">ssl_sslv3=NO
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">require_ssl_cert=YES
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">require_ssl_reuse=NO
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOL</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Generating SSL certificates...&#34;</span>
+</span></span><span style="display:flex;"><span>mkdir -p /etc/ssl/private
+</span></span><span style="display:flex;"><span>openssl req -newkey rsa:2048 -nodes -keyout /etc/ssl/private/vsftpd.key -x509 -days <span style="color:#ae81ff">365</span> -out /etc/ssl/certs/vsftpd.pem -subj <span style="color:#e6db74">&#34;/CN=FTPServer&#34;</span>
+</span></span><span style="display:flex;"><span>chmod <span style="color:#ae81ff">600</span> /etc/ssl/private/vsftpd.key
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Creating FTP directories for the example user...&#34;</span>
+</span></span><span style="display:flex;"><span>useradd -m ftpuser
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Please enter a password for ftpuser:&#34;</span>
+</span></span><span style="display:flex;"><span>passwd ftpuser
+</span></span><span style="display:flex;"><span>mkdir -p /home/ftpuser/ftp/upload
+</span></span><span style="display:flex;"><span>chown -R ftpuser:ftpuser /home/ftpuser/ftp
+</span></span><span style="display:flex;"><span>chmod -R <span style="color:#ae81ff">750</span> /home/ftpuser/ftp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Enabling and starting the vsftpd service...&#34;</span>
+</span></span><span style="display:flex;"><span>systemctl enable vsftpd
+</span></span><span style="display:flex;"><span>systemctl restart vsftpd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Configuring firewall rules...&#34;</span>
+</span></span><span style="display:flex;"><span>iptables -A INPUT -p tcp --dport <span style="color:#ae81ff">21</span> -j ACCEPT
+</span></span><span style="display:flex;"><span>iptables -A INPUT -p tcp --dport 10000:10100 -j ACCEPT
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Setup complete!&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;You can now connect to the FTP server using the following credentials:&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;  Username: ftpuser&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;  Password: &lt;your_password&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;  Local IP Address: </span><span style="color:#66d9ef">$(</span>hostname -I | awk <span style="color:#e6db74">&#39;{print $1}&#39;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;Make sure to change the password and customize configurations for production use.&#34;</span>
+</span></span></code></pre></div>
+    <h4><a href="http://localhost:1313/wiki-blogs/">Back to Home</a></h4>
+</div>
+
+<script src="https://giscus.app/client.js"
+        data-repo="stuffbymax/wiki-blogs"
+        data-repo-id="R_kgDON7mYJQ"
+        data-category="General"
+        data-category-id="DIC_kwDON7mYJc4CnJkb"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+    <a href="https://gitlab.com/maxlefou/hugo.386">hugo.386 theme by Max le Fou</a> | 
+
+&copy; 
+<a href="https://github.com/stuffbymax/wiki-blogs/blob/main/LICENSE" target="_blank">
+    stuffbymax|Martin Petik
+</a>
+<span id="thisyear">2025</span>
+
+    | MIT License
+
+
+</p>
+    <p class="text-center">
+        
+        <a href="https://github.com/stuffbymax">GitHub</a> | 
+        <a href="https://www.youtube.com/@stuffbymax">YouTube</a> | 
+	    
+	    
+	    
+        <a href="https://github.com/stuffbymax/wiki">Source code</a> | 
+        <a href="https://stuff-by-max.itch.io/">itch.io</a>
+    </p>
+
+</footer>
+</body><link rel="stylesheet" href="/wiki-blogs/css/bootstrap.css">
+<link rel="stylesheet" href="/wiki-blogs/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/wiki-blogs/css/style.css">
+
+<script src="/wiki-blogs/js/jquery.js"></script>
+<script src="/wiki-blogs/js/bootstrap-386.js"></script>
+<script src="/wiki-blogs/js/bootstrap-transition.js"></script>
+<script src="/wiki-blogs/js/bootstrap-alert.js"></script>
+<script src="/wiki-blogs/js/bootstrap-modal.js"></script>
+<script src="/wiki-blogs/js/bootstrap-dropdown.js"></script>
+<script src="/wiki-blogs/js/bootstrap-scrollspy.js"></script>
+<script src="/wiki-blogs/js/bootstrap-tab.js"></script>
+<script src="/wiki-blogs/js/bootstrap-tooltip.js"></script>
+<script src="/wiki-blogs/js/bootstrap-popover.js"></script>
+<script src="/wiki-blogs/js/bootstrap-button.js"></script>
+<script src="/wiki-blogs/js/bootstrap-collapse.js"></script>
+<script src="/wiki-blogs/js/bootstrap-carousel.js"></script>
+<script src="/wiki-blogs/js/bootstrap-typeahead.js"></script>
+<script src="/wiki-blogs/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: false ,
+        onePass: false , 
+        speedFactor: 1 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
+</html>

@@ -6,14 +6,21 @@
     <description>Recent content in Posts on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Feb 2025 23:49:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 09:24:14 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Secure FTP Server Setup on Arch Linux: A Tutorial</title>
+      <link>http://localhost:1313/wiki-blogs/post/secure-ftp/</link>
+      <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/secure-ftp/</guid>
+      <description>&lt;h1 id=&#34;secure-ftp-server-setup-on-arch-linux-a-tutorial&#34;&gt;Secure FTP Server Setup on Arch Linux: A Tutorial&lt;/h1&gt;&#xA;&lt;p&gt;This tutorial will guide you through setting up a secure FTP (FTPS) server on Arch Linux using &lt;code&gt;vsftpd&lt;/code&gt;.  It uses passive mode for better compatibility with firewalls, and enforces SSL/TLS encryption for secure data transfer.  The tutorial uses &lt;code&gt;ftpuser&lt;/code&gt; as an example user; remember to change this in production environments.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Arch Linux Installation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A working Arch Linux installation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Root Access:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>open pad</title>
       <link>http://localhost:1313/wiki-blogs/post/open-pad/</link>
       <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
       <guid>http://localhost:1313/wiki-blogs/post/open-pad/</guid>
-      <description></description>
+      <description>&lt;iframe frameborder=&#34;0&#34; &#xA;        src=&#34;https://itch.io/embed/3352351?border_width=2&amp;amp;bg_color=000000&amp;amp;fg_color=ffffff&amp;amp;border_color=ffffff&#34; &#xA;        width=&#34;554&#34; &#xA;        height=&#34;169&#34;&gt;&#xA;    &lt;a href=&#34;https://stuff-by-max.itch.io/open-pad&#34;&gt;Open Pad (alpha) by stuff by max&lt;/a&gt;&#xA;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Apple’s Privacy U-Turn: Government Access to Your Data</title>
