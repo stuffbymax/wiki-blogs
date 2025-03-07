@@ -1,14 +1,14 @@
 +++
 date = '2025-02-27T09:24:14Z'
 draft = false
-title = 'Secure FTP Server Setup on Arch Linux: A Tutorial'
+title = "Secure FTP Server Setup on Arch Linux: A Tutorial"
+description = "Secure FTP Server Setup on Arch Linux: A Tutorial"
 categories = ["Tutorial"]
 series = ["Tech"]
 tags = ["FTP", "linux"]
 aliases = ["secute-ftp"]
 +++
 
-# Secure FTP Server Setup on Arch Linux: A Tutorial
 
 This tutorial will guide you through setting up a secure FTP (FTPS) server on Arch Linux using `vsftpd`.  It uses passive mode for better compatibility with firewalls, and enforces SSL/TLS encryption for secure data transfer.  The tutorial uses `ftpuser` as an example user; remember to change this in production environments.
 
