@@ -17,7 +17,7 @@ preserveTaxonomyNames = true
 
     # The subtitle to display under the title in the home page
     mainpagesubtitle = "Welcome to the early 90s! "
-    lastupdate = "last update 2025-03-07 22:09" 
+    lastupdate = "last update 2025-04-08 23:21" 
 
     # The description of your website. It will be displayed in the home page
     mainpagedesc = "this is a wiki and blogs"

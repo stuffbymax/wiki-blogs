@@ -6,20 +6,48 @@
     <description>Recent content in Tags on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 09:24:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 22:53:43 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>FTP</title>
-      <link>http://localhost:1313/wiki-blogs/tags/ftp/</link>
-      <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/ftp/</guid>
+      <title>BSD</title>
+      <link>http://localhost:1313/wiki-blogs/tags/bsd/</link>
+      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/bsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>http://localhost:1313/wiki-blogs/tags/linux/</link>
-      <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
+      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
       <guid>http://localhost:1313/wiki-blogs/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UNIX</title>
+      <link>http://localhost:1313/wiki-blogs/tags/unix/</link>
+      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/unix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/wiki-blogs/tags/windows/</link>
+      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/wiki-blogs/tags/tutorial/</link>
+      <pubDate>Mon, 17 Mar 2025 10:34:29 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FTP</title>
+      <link>http://localhost:1313/wiki-blogs/tags/ftp/</link>
+      <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/ftp/</guid>
       <description></description>
     </item>
     <item>

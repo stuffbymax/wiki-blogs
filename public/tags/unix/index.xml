@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UNIX on wiki</title>
+    <link>http://localhost:1313/wiki-blogs/tags/unix/</link>
+    <description>Recent content in UNIX on wiki</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 08 Apr 2025 22:53:43 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/wiki-blogs/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my OS tracker</title>
+      <link>http://localhost:1313/wiki-blogs/post/what-os/</link>
+      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/what-os/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h3 id=&#34;linux&#34;&gt;LINUX&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;arch-based&#34;&gt;ARCH based&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Arch (home-server — minimal)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;endeavourOS (main college — xfce4)&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;fedora-based&#34;&gt;Fedora Based&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Fedora (dev machine — testing personal apps, packaging — i3)&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;debian-based&#34;&gt;Debian Based&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Debian (dev machine — xfce4+i3)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ubuntu (testing — gnome)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+  </channel>
+</rss>

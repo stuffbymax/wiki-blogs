@@ -3,30 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/wiki-blogs/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/categories/aboutme/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/bsd/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/linux/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/what-os/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/series/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/series/tech/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/unix/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/windows/</loc>
+    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/ps3-gentoo/</loc>
+    <lastmod>2025-03-17T10:34:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/categories/linux/</loc>
+    <lastmod>2025-03-17T10:34:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/categories/ps3/</loc>
+    <lastmod>2025-03-17T10:34:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/tutorial/</loc>
+    <lastmod>2025-03-17T10:34:29+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/ftp/</loc>
     <lastmod>2025-02-27T09:24:14+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/wiki-blogs/tags/linux/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/post/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/wiki-blogs/post/secure-ftp/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/series/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/tags/</loc>
-    <lastmod>2025-02-27T09:24:14+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/series/tech/</loc>
     <lastmod>2025-02-27T09:24:14+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/tutorial/</loc>

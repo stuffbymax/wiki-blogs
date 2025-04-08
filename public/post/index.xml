@@ -6,8 +6,22 @@
     <description>Recent content in Posts on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 09:24:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 22:53:43 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>my OS tracker</title>
+      <link>http://localhost:1313/wiki-blogs/post/what-os/</link>
+      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/what-os/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h3 id=&#34;linux&#34;&gt;LINUX&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;arch-based&#34;&gt;ARCH based&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Arch (home-server — minimal)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;endeavourOS (main college — xfce4)&lt;br&gt;&#xA; &lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;fedora-based&#34;&gt;Fedora Based&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Fedora (dev machine — testing personal apps, packaging — i3)&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;debian-based&#34;&gt;Debian Based&lt;/h3&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Debian (dev machine — xfce4+i3)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ubuntu (testing — gnome)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;</description>
+    </item>
+    <item>
+      <title>Install Gentoo on PS3</title>
+      <link>http://localhost:1313/wiki-blogs/post/ps3-gentoo/</link>
+      <pubDate>Mon, 17 Mar 2025 10:34:29 +0000</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/ps3-gentoo/</guid>
+      <description>&lt;h1 id=&#34;requirements&#34;&gt;requirements&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jalibreak PS3&lt;/li&gt;&#xA;&lt;li&gt;Other os installed&lt;/li&gt;&#xA;&lt;li&gt;create-hdd-region.sh&lt;/li&gt;&#xA;&lt;li&gt;USB Flash Disk&lt;/li&gt;&#xA;&lt;li&gt;Keboard&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;after-installation-of-other-os-download-create-hdd-regionsh-for-spliting-storage-it-will-create-dd-on-ps3&#34;&gt;After installation of Other OS download create-hdd-region.sh for spliting storage it will create DD on ps3&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/nevik-xx/create_hdd_region/tree/master&#34;&gt;create-hdd-region.sh&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;now-navigate-to-other-os-and-set-os-flag&#34;&gt;now navigate to Other OS and Set OS Flag&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/wiki-blogs/images/tutorials/ps3-gentoo/Other-OS.png&#34; alt=&#34;Other-os&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;now-you-will-be-loaded-to-ps3-boot-loader&#34;&gt;Now you will be loaded to PS3 boot loader&lt;/h1&gt;</description>
+    </item>
     <item>
       <title>Secure FTP Server Setup on Arch Linux: A Tutorial</title>
       <link>http://localhost:1313/wiki-blogs/post/secure-ftp/</link>
