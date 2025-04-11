@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/wiki-blogs/</loc>
-    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
+    <lastmod>2025-04-10T19:39:17+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/bash-theft-auto/</loc>
+    <lastmod>2025-04-10T19:39:17+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/</loc>
+    <lastmod>2025-04-10T19:39:17+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/aboutme/</loc>
     <lastmod>2025-04-08T22:53:43+01:00</lastmod>
@@ -18,9 +24,6 @@
     <lastmod>2025-04-08T22:53:43+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/post/what-os/</loc>
-    <lastmod>2025-04-08T22:53:43+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/post/</loc>
     <lastmod>2025-04-08T22:53:43+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/series/</loc>
