@@ -6,13 +6,27 @@
     <description>Recent content in Categories on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Apr 2025 22:53:43 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 18 Apr 2025 20:16:33 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aboutme</title>
       <link>http://localhost:1313/wiki-blogs/categories/aboutme/</link>
-      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
       <guid>http://localhost:1313/wiki-blogs/categories/aboutme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Projects</title>
+      <link>http://localhost:1313/wiki-blogs/categories/personal-projects/</link>
+      <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/categories/personal-projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Translation</title>
+      <link>http://localhost:1313/wiki-blogs/categories/translation/</link>
+      <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/categories/translation/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +48,6 @@
       <link>http://localhost:1313/wiki-blogs/categories/tutorial/</link>
       <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
       <guid>http://localhost:1313/wiki-blogs/categories/tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal Projects</title>
-      <link>http://localhost:1313/wiki-blogs/categories/personal-projects/</link>
-      <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/categories/personal-projects/</guid>
       <description></description>
     </item>
     <item>

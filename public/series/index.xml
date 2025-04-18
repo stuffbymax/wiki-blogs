@@ -6,12 +6,19 @@
     <description>Recent content in Series on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Apr 2025 22:53:43 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 18 Apr 2025 20:16:33 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Translation</title>
+      <link>http://localhost:1313/wiki-blogs/series/translation/</link>
+      <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/series/translation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tech</title>
       <link>http://localhost:1313/wiki-blogs/series/tech/</link>
-      <pubDate>Tue, 08 Apr 2025 22:53:43 +0100</pubDate>
+      <pubDate>Thu, 10 Apr 2025 19:39:17 +0100</pubDate>
       <guid>http://localhost:1313/wiki-blogs/series/tech/</guid>
       <description></description>
     </item>
