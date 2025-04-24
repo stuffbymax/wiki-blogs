@@ -6,8 +6,22 @@
     <description>Recent content in Tags on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Apr 2025 20:16:33 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 24 Apr 2025 09:57:16 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/wiki-blogs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Language</title>
+      <link>http://localhost:1313/wiki-blogs/tags/language/</link>
+      <pubDate>Thu, 24 Apr 2025 09:57:16 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Religion</title>
+      <link>http://localhost:1313/wiki-blogs/tags/religion/</link>
+      <pubDate>Thu, 24 Apr 2025 09:57:16 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/tags/religion/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Political Thought</title>
       <link>http://localhost:1313/wiki-blogs/tags/political-thought/</link>
