@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/wiki-blogs/</loc>
-    <lastmod>2025-04-24T09:57:16+01:00</lastmod>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/ai-problem-in-youtube/</loc>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/</loc>
-    <lastmod>2025-04-24T09:57:16+01:00</lastmod>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/categories/google/</loc>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/</loc>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/series/</loc>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/series/tech/</loc>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/categories/tech-news/</loc>
+    <lastmod>2025-05-15T11:45:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/post/double-standard-lang/</loc>
     <lastmod>2025-04-24T09:57:16+01:00</lastmod>
@@ -20,16 +38,10 @@
     <loc>http://localhost:1313/wiki-blogs/categories/politics/</loc>
     <lastmod>2025-04-24T09:57:16+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/wiki-blogs/post/</loc>
-    <lastmod>2025-04-24T09:57:16+01:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/religion/</loc>
     <lastmod>2025-04-24T09:57:16+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/</loc>
-    <lastmod>2025-04-24T09:57:16+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/post/mathew544/</loc>
     <lastmod>2025-04-24T09:57:16+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/aboutme/</loc>
@@ -42,9 +54,6 @@
     <lastmod>2025-04-18T20:16:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/political-thought/</loc>
-    <lastmod>2025-04-18T20:16:33+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/series/</loc>
     <lastmod>2025-04-18T20:16:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/translation/</loc>
@@ -60,9 +69,6 @@
     <lastmod>2025-04-10T19:39:17+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/linux/</loc>
-    <lastmod>2025-04-10T19:39:17+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/series/tech/</loc>
     <lastmod>2025-04-10T19:39:17+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/unix/</loc>
@@ -111,9 +117,6 @@
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/cybersecurity/</loc>
-    <lastmod>2025-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/categories/tech-news/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/arch/</loc>
