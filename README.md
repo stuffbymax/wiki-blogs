@@ -1,1 +1,1 @@
-link stuffbymax.me/wiki-blogs/
+[link](stuffbymax.me/wiki-blogs/)
