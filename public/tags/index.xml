@@ -2,143 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on wiki</title>
-    <link>http://localhost:1313/wiki-blogs/tags/</link>
+    <link>https://stuffbymax.me/wiki-blogs/tags/</link>
     <description>Recent content in Tags on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Jun 2025 22:28:03 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/wiki-blogs/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cheatsheet</title>
-      <link>http://localhost:1313/wiki-blogs/tags/cheatsheet/</link>
-      <pubDate>Mon, 16 Jun 2025 22:28:03 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/cheatsheet/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 24 Apr 2025 09:57:16 +0100</lastBuildDate>
+    <atom:link href="https://stuffbymax.me/wiki-blogs/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Language</title>
-      <link>http://localhost:1313/wiki-blogs/tags/language/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/language/</link>
       <pubDate>Thu, 24 Apr 2025 09:57:16 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/language/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/language/</guid>
       <description></description>
     </item>
     <item>
       <title>Religion</title>
-      <link>http://localhost:1313/wiki-blogs/tags/religion/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/religion/</link>
       <pubDate>Thu, 24 Apr 2025 09:57:16 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/religion/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/religion/</guid>
       <description></description>
     </item>
     <item>
       <title>Political Thought</title>
-      <link>http://localhost:1313/wiki-blogs/tags/political-thought/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/political-thought/</link>
       <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/political-thought/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/political-thought/</guid>
       <description></description>
     </item>
     <item>
       <title>BSD</title>
-      <link>http://localhost:1313/wiki-blogs/tags/bsd/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/bsd/</link>
       <pubDate>Thu, 10 Apr 2025 19:39:17 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/bsd/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/bsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/wiki-blogs/tags/linux/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/linux/</link>
       <pubDate>Thu, 10 Apr 2025 19:39:17 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/linux/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>UNIX</title>
-      <link>http://localhost:1313/wiki-blogs/tags/unix/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/unix/</link>
       <pubDate>Thu, 10 Apr 2025 19:39:17 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/unix/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/unix/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/wiki-blogs/tags/windows/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/windows/</link>
       <pubDate>Thu, 10 Apr 2025 19:39:17 +0100</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/windows/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:1313/wiki-blogs/tags/tutorial/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/tutorial/</link>
       <pubDate>Mon, 17 Mar 2025 10:34:29 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/tutorial/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>FTP</title>
-      <link>http://localhost:1313/wiki-blogs/tags/ftp/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/ftp/</link>
       <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/ftp/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/ftp/</guid>
       <description></description>
     </item>
     <item>
       <title>Apps</title>
-      <link>http://localhost:1313/wiki-blogs/tags/apps/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/apps/</link>
       <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/apps/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/apps/</guid>
       <description></description>
     </item>
     <item>
       <title>Game Development</title>
-      <link>http://localhost:1313/wiki-blogs/tags/game-development/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/game-development/</link>
       <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/game-development/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/game-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Apple</title>
-      <link>http://localhost:1313/wiki-blogs/tags/apple/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/apple/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/apple/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/apple/</guid>
       <description></description>
     </item>
     <item>
       <title>Arch</title>
-      <link>http://localhost:1313/wiki-blogs/tags/arch/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/arch/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/arch/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/arch/</guid>
       <description></description>
     </item>
     <item>
       <title>Xfce4</title>
-      <link>http://localhost:1313/wiki-blogs/tags/xfce4/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/xfce4/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/xfce4/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/xfce4/</guid>
       <description></description>
     </item>
     <item>
       <title>Microsoft</title>
-      <link>http://localhost:1313/wiki-blogs/tags/microsoft/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/microsoft/</link>
       <pubDate>Wed, 19 Feb 2025 14:34:16 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/microsoft/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/microsoft/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/wiki-blogs/tags/ai/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/ai/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/ai/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Meta</title>
-      <link>http://localhost:1313/wiki-blogs/tags/meta/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/meta/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/meta/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/meta/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantum Computing</title>
-      <link>http://localhost:1313/wiki-blogs/tags/quantum-computing/</link>
+      <link>https://stuffbymax.me/wiki-blogs/tags/quantum-computing/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/tags/quantum-computing/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/tags/quantum-computing/</guid>
       <description></description>
     </item>
   </channel>

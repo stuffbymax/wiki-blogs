@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apps on wiki</title>
-    <link>http://localhost:1313/wiki-blogs/tags/apps/</link>
+    <link>https://stuffbymax.me/wiki-blogs/tags/apps/</link>
     <description>Recent content in Apps on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 22 Feb 2025 23:49:10 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/wiki-blogs/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stuffbymax.me/wiki-blogs/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>open pad</title>
-      <link>http://localhost:1313/wiki-blogs/post/open-pad/</link>
+      <link>https://stuffbymax.me/wiki-blogs/post/open-pad/</link>
       <pubDate>Sat, 22 Feb 2025 23:49:10 +0000</pubDate>
-      <guid>http://localhost:1313/wiki-blogs/post/open-pad/</guid>
+      <guid>https://stuffbymax.me/wiki-blogs/post/open-pad/</guid>
       <description>&lt;iframe frameborder=&#34;0&#34; &#xD;&#xA;        src=&#34;https://itch.io/embed/3352351?border_width=2&amp;amp;bg_color=000000&amp;amp;fg_color=ffffff&amp;amp;border_color=ffffff&#34; &#xD;&#xA;        width=&#34;554&#34; &#xD;&#xA;        height=&#34;169&#34;&gt;&#xD;&#xA;    &lt;a href=&#34;https://stuff-by-max.itch.io/open-pad&#34;&gt;Open Pad (alpha) by stuff by max&lt;/a&gt;&#xD;&#xA;&lt;/iframe&gt;</description>
     </item>
   </channel>
