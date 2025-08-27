@@ -2,101 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on wiki</title>
-    <link>https://stuffbymax.me/wiki-blogs/categories/</link>
+    <link>http://localhost:1313/wiki-blogs/categories/</link>
     <description>Recent content in Categories on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 May 2025 11:45:19 +0100</lastBuildDate>
-    <atom:link href="https://stuffbymax.me/wiki-blogs/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Aug 2025 11:45:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/wiki-blogs/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Dev</title>
+      <link>http://localhost:1313/wiki-blogs/categories/game-dev/</link>
+      <pubDate>Wed, 27 Aug 2025 11:45:19 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/categories/game-dev/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Google</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/google/</link>
-      <pubDate>Thu, 15 May 2025 11:45:19 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/google/</guid>
+      <link>http://localhost:1313/wiki-blogs/categories/google/</link>
+      <pubDate>Wed, 27 Aug 2025 11:45:19 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/categories/google/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech News</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/tech-news/</link>
-      <pubDate>Thu, 15 May 2025 11:45:19 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/tech-news/</guid>
+      <link>http://localhost:1313/wiki-blogs/categories/tech-news/</link>
+      <pubDate>Wed, 27 Aug 2025 11:45:19 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/categories/tech-news/</guid>
       <description></description>
     </item>
     <item>
       <title>Politics</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/politics/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/politics/</link>
       <pubDate>Thu, 24 Apr 2025 09:57:16 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/politics/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/politics/</guid>
       <description></description>
     </item>
     <item>
       <title>Aboutme</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/aboutme/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/aboutme/</link>
       <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/aboutme/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/aboutme/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal Projects</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/personal-projects/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/personal-projects/</link>
       <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/personal-projects/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/personal-projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Translation</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/translation/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/translation/</link>
       <pubDate>Fri, 18 Apr 2025 20:16:33 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/translation/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/translation/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/linux/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/linux/</link>
       <pubDate>Mon, 17 Mar 2025 10:34:29 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/linux/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Ps3</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/ps3/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/ps3/</link>
       <pubDate>Mon, 17 Mar 2025 10:34:29 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/ps3/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/ps3/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorial</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/tutorial/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/tutorial/</link>
       <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/tutorial/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/cybersecurity/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/cybersecurity/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/cybersecurity/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>AI &amp; Machine Learning</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/ai--machine-learning/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/ai--machine-learning/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/ai--machine-learning/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/ai--machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantum Computing</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/quantum-computing/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/quantum-computing/</link>
       <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/quantum-computing/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/quantum-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Tech Reviews</title>
-      <link>https://stuffbymax.me/wiki-blogs/categories/tech-reviews/</link>
+      <link>http://localhost:1313/wiki-blogs/categories/tech-reviews/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/categories/tech-reviews/</guid>
+      <guid>http://localhost:1313/wiki-blogs/categories/tech-reviews/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FTP on wiki</title>
-    <link>https://stuffbymax.me/wiki-blogs/tags/ftp/</link>
+    <link>http://localhost:1313/wiki-blogs/tags/ftp/</link>
     <description>Recent content in FTP on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Feb 2025 09:24:14 +0000</lastBuildDate>
-    <atom:link href="https://stuffbymax.me/wiki-blogs/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/wiki-blogs/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Secure FTP Server Setup on Arch Linux: A Tutorial</title>
-      <link>https://stuffbymax.me/wiki-blogs/post/secure-ftp/</link>
+      <link>http://localhost:1313/wiki-blogs/post/secure-ftp/</link>
       <pubDate>Thu, 27 Feb 2025 09:24:14 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/post/secure-ftp/</guid>
+      <guid>http://localhost:1313/wiki-blogs/post/secure-ftp/</guid>
       <description>&lt;p&gt;This tutorial will guide you through setting up a secure FTP (FTPS) server on Arch Linux using &lt;code&gt;vsftpd&lt;/code&gt;.  It uses passive mode for better compatibility with firewalls, and enforces SSL/TLS encryption for secure data transfer.  The tutorial uses &lt;code&gt;ftpuser&lt;/code&gt; as an example user; remember to change this in production environments.&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Arch Linux Installation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;A working Arch Linux installation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Root Access:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;You will need root privileges to run the commands.&lt;/p&gt;</description>
     </item>
   </channel>

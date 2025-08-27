@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on wiki</title>
-    <link>https://stuffbymax.me/wiki-blogs/series/ai/</link>
+    <link>http://localhost:1313/wiki-blogs/series/ai/</link>
     <description>Recent content in AI on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 18 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stuffbymax.me/wiki-blogs/series/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/wiki-blogs/series/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing Different AI Models</title>
-      <link>https://stuffbymax.me/wiki-blogs/post/tic-tac-toe-test/</link>
+      <link>http://localhost:1313/wiki-blogs/post/tic-tac-toe-test/</link>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/post/tic-tac-toe-test/</guid>
+      <guid>http://localhost:1313/wiki-blogs/post/tic-tac-toe-test/</guid>
       <description>&lt;h1 id=&#34;tic-tac-toe-ai-evaluation-report&#34;&gt;&lt;strong&gt;Tic-Tac-Toe AI Evaluation Report&lt;/strong&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This report evaluates several AI models for a Tic-Tac-Toe game, focusing on performance, design, and gameplay in different modes. The evaluation includes different versions of AI models: ChatGPT-4, Cloud 3.5-Sonnet, Copilot, Gemini 2.0 Flash, and Gemini 2.0 Flash-Experimental.&lt;/p&gt;&#xA;&lt;p&gt;the promt was runed only once per AI&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-chatgpt-4&#34;&gt;&lt;strong&gt;1. ChatGPT-4&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Fast.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Player vs AI&lt;/strong&gt;: Works well, providing a smooth experience.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;: Simple, intuitive, but slightly lacking in aesthetics compared to others.&lt;/p&gt;</description>
     </item>
   </channel>

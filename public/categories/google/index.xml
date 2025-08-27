@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on wiki</title>
-    <link>https://stuffbymax.me/wiki-blogs/categories/google/</link>
+    <link>http://localhost:1313/wiki-blogs/categories/google/</link>
     <description>Recent content in Google on wiki</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 May 2025 11:45:19 +0100</lastBuildDate>
-    <atom:link href="https://stuffbymax.me/wiki-blogs/categories/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Aug 2025 11:45:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/wiki-blogs/categories/google/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freedom, Privacy, and App Distribution in a Changing Google Ecosystem</title>
+      <link>http://localhost:1313/wiki-blogs/post/android-update/</link>
+      <pubDate>Wed, 27 Aug 2025 11:45:19 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/android-update/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Heads-Up for Future Games&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Google plans to block apps from unverified developers. As an independent developer who values &lt;strong&gt;freedom and privacy&lt;/strong&gt;, I may choose &lt;strong&gt;not&lt;/strong&gt; to get verified.&lt;/p&gt;&#xA;&lt;p&gt;This could trigger installation warnings, but my games are safe to install and play. I’m committed to keeping them &lt;strong&gt;accessible, free, and private&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI Problem in Youtube</title>
-      <link>https://stuffbymax.me/wiki-blogs/post/ai-problem-in-youtube/</link>
+      <link>http://localhost:1313/wiki-blogs/post/ai-problem-in-youtube-copy/</link>
       <pubDate>Thu, 15 May 2025 11:45:19 +0100</pubDate>
-      <guid>https://stuffbymax.me/wiki-blogs/post/ai-problem-in-youtube/</guid>
+      <guid>http://localhost:1313/wiki-blogs/post/ai-problem-in-youtube-copy/</guid>
       <description>&lt;h1 id=&#34;why-is-it-ok-to-show-sexual-ads-on-youtube-but-not-say-adolf-hitler&#34;&gt;Why Is It OK to Show Sexual Ads on YouTube, But Not Say &amp;lsquo;Adolf Hitler&amp;rsquo;?&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introduction-a-double-standard-in-content-moderation&#34;&gt;Introduction: A Double Standard in Content Moderation&lt;/h2&gt;&#xA;&lt;p&gt;Despite YouTube’s reputation as a family-friendly platform and Google’s strict policies banning adult content in advertising, many users — myself included — are being regularly bombarded with NSFW (Not Safe For Work) ads.&lt;/p&gt;&#xA;&lt;p&gt;These range from suggestive mobile game ads to animated women in lingerie — often appearing during videos meant for all audiences.&lt;/p&gt;</description>
     </item>
   </channel>

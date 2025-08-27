@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Dev on wiki</title>
+    <link>http://localhost:1313/wiki-blogs/categories/game-dev/</link>
+    <description>Recent content in Game Dev on wiki</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Aug 2025 11:45:19 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/wiki-blogs/categories/game-dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freedom, Privacy, and App Distribution in a Changing Google Ecosystem</title>
+      <link>http://localhost:1313/wiki-blogs/post/android-update/</link>
+      <pubDate>Wed, 27 Aug 2025 11:45:19 +0100</pubDate>
+      <guid>http://localhost:1313/wiki-blogs/post/android-update/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Heads-Up for Future Games&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Google plans to block apps from unverified developers. As an independent developer who values &lt;strong&gt;freedom and privacy&lt;/strong&gt;, I may choose &lt;strong&gt;not&lt;/strong&gt; to get verified.&lt;/p&gt;&#xA;&lt;p&gt;This could trigger installation warnings, but my games are safe to install and play. I’m committed to keeping them &lt;strong&gt;accessible, free, and private&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
