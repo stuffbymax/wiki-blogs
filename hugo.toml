@@ -70,7 +70,7 @@ preserveTaxonomyNames = true
       [[menu.main]]
     identifier = "cv" # An unique identifier for the button
     name = "cv"       # A display name for the button
-    url = "https://stuffbymax.github.io"      # The path to the content. It can lead to a single page (like here)
+    url = "https://stuffbymax.github.io/cv"      # The path to the content. It can lead to a single page (like here)
     weight = 10         # A number to order the buttons in the navbar
     
 
