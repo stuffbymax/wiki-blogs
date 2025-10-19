@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/wiki-blogs/</loc>
-    <lastmod>2025-08-27T11:45:19+01:00</lastmod>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/categories/aboutme/</loc>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/aboutme/</loc>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/categories/</loc>
-    <lastmod>2025-08-27T11:45:19+01:00</lastmod>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/domain/</loc>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/post/</loc>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wiki-blogs/tags/</loc>
+    <lastmod>2025-10-19T00:51:06+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/post/android-update/</loc>
     <lastmod>2025-08-27T11:45:19+01:00</lastmod>
@@ -18,9 +33,6 @@
     <lastmod>2025-08-27T11:45:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/series/indie-games/</loc>
-    <lastmod>2025-08-27T11:45:19+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/post/</loc>
     <lastmod>2025-08-27T11:45:19+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/series/</loc>
@@ -49,12 +61,6 @@
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/tags/religion/</loc>
     <lastmod>2025-04-24T09:57:16+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/tags/</loc>
-    <lastmod>2025-04-24T09:57:16+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/wiki-blogs/categories/aboutme/</loc>
-    <lastmod>2025-04-18T20:16:33+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/wiki-blogs/post/lesson-about-freedom/</loc>
     <lastmod>2025-04-18T20:16:33+01:00</lastmod>
